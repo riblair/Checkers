@@ -9,7 +9,8 @@
 #define TMSNAME_H_
 
 // Riley Blair
-// Cole Parks
 // Paul Godinez
+// Nandita Kumar
+// Cole Parks
 
 #endif /* TMSNAME_H_ */
