@@ -12,6 +12,10 @@ class CheckerMove {
 public:
 	CheckerMove();
 	virtual ~CheckerMove();
+	bool isLegal(); // board state, start pos (struct), end pos (struct),
+	//mybe more office hours
 };
+
+
 
 #endif /* CHECKERMOVE_H_ */

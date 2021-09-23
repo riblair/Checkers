@@ -34,55 +34,6 @@ bool Production::prod(int argc, char* argv[])
 		fflush(stdout);
 		char filename[FILENAMELENGTHALLOWANCE];
 		char* eptr=(char*) malloc(sizeof(char*));
-		long aL=-1L;
-		int maxRooms;
-		float maxTreasure;
-		double maxTreas;
-
-		for(int i = 1; i<argc; i++) //don't want to read argv[0]
-				{//argv[i] is a string
-
-					switch(i)
-					{
-					case 1:
-						//this is filename
-						printf("The length of the filename is %d.\n",(int)strlen(argv[i]));
-						printf("The proposed filename is %s.\n", argv[i]);
-						if(strlen(argv[i])>=FILENAMELENGTHALLOWANCE)
-						{
-							puts("Filename is too long.");
-							fflush(stdout);
-							answer = false;
-						}
-						else
-						{
-							strcpy(filename, argv[i]);
-							printf("Filename was %s.\n", filename);
-							fflush(stdout);
-						}
-						break;
-					case 2:
-						//this is maximum number of rooms
-
-						aL = strtol(argv[i], &eptr, 10);
-						maxRooms = (int) aL;
-						printf("Number of rooms is %d\n",maxRooms);fflush(stdout);
-						break;
-					case 3:
-						//this is maximum amount of treasure
-
-						maxTreas = atof(argv[i]);
-						printf("Amount of  treasure is %f\n",maxTreas);fflush(stdout);
-						maxTreasure = (float) maxTreas;
-						break;
-
-					default:
-						puts("Unexpected argument count."); fflush(stdout);
-						answer = false;
-						break;
-					}//end of switch
-				}//end of for loop on argument count
-				puts("after reading arguments"); fflush(stdout);
 
 		//we'll want to read the file
 	    Board* theBoard = new Board();
@@ -91,10 +42,7 @@ bool Production::prod(int argc, char* argv[])
 		answer = readFile(filename, theBoard); //read the file
 		puts("Back from read file"); fflush(stdout);
 
-
-
-
-
+		//Prob need to make the game run here
 
 	}
 	return answer;
