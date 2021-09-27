@@ -6,9 +6,13 @@
  */
 
 #include "Board.h"
+#include "Pawn.h"
+#include <stdio.h>
+#include <stdbool.h>
 
 Board::Board() {
 	// TODO Auto-generated constructor stub
+
 
 }
 
@@ -23,4 +27,18 @@ void Board::displayBoard()
 void Board::printToFile(char* filename)
 {
     //TODO
+}
+
+void Board::initBoard(){
+
+	for (int i = 0; i < BOARD_SIZE; i++){
+
+		for (int j = 0; j < BOARD_SIZE; j++){
+
+			//put pieces on board
+
+		}
+
+	}
+
 }

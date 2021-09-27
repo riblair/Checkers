@@ -11,6 +11,8 @@
 
 #define BOARD_SIZE 8
 
+
+
 class Board {
 public:
 	Board();
@@ -18,6 +20,8 @@ public:
 	void displayBoard();
 	void printToFile(char* filename);
 	void Board::initBoard();
+
+
 };
 
 #endif /* BOARD_H_ */
