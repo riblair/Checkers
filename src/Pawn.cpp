@@ -8,7 +8,7 @@
 #include "Pawn.h"
 #include <stdio.h>
 #include <stdbool.h>
-Pawn::Pawn(bool _color, int _col, int _row) {
+Pawn::Pawn(bool _color, int _row, int _col) {
 	 color = _color;
 	 king = false;
 	 taken = false;
@@ -47,4 +47,7 @@ void Pawn::makeKing(){
 
 void Pawn::takePawn(){
 	taken = true;
+	pos->col = -1;
+	pos->row = -1;
+
 }
