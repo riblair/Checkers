@@ -13,7 +13,6 @@
 #include <stdlib.h>//strtol
 #include "Board.h"
 #include "Pawn.h"
-#include "King.h"
 
 #define FILENAMELENGTHALLOWANCE 50
 

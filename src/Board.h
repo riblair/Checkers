@@ -22,10 +22,10 @@ public:
 	virtual ~Board();
 	void displayBoard();
 	void printToFile(char* filename);
-	void Board::initBoard();
-	void Board::initBoard(Pawn* pawnArray[]);
-	Pawn* Pieces[];
-	void Board::movePiece();
+	void initBoard();
+	void initBoard(Pawn* pawnArray[]);
+	Pawn* Pieces[24];
+	void movePiece();
 
 
 };
