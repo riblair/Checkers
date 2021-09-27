@@ -36,7 +36,7 @@ void Board::displayBoard()
 			else {
 				bool found = false;
 				for(Pawn* p: Pieces) {
-					if(p->returnPosition()->col == j && p->returnPosition()->row == i) { //NEED TO ADD TAKEN CHECK
+					if(p->returnPosition()->col == j && p->returnPosition()->row == i && !p->taken) {
 						//there is a pawn there
 						if(p->color) { //true = black, false = red
 							if(p->king) {
@@ -80,29 +80,51 @@ void Board::printToFile(char* filename)
 
 void Board::initBoard(){
 
-	Pieces[0] = new Pawn(false, 1, 0);
-	Pieces[1] = new Pawn(false, 3, 0);
-	Pieces[2] = new Pawn(false, 5, 0);
-	Pieces[3] = new Pawn(false, 7, 0);
-	Pieces[4] = new Pawn(false, 0, 1);
-	Pieces[5] = new Pawn(false, 2, 1);
-	Pieces[6] = new Pawn(false, 4, 1);
-	Pieces[7] = new Pawn(false, 6, 1);
-	Pieces[8] = new Pawn(false, 1, 2);
-	Pieces[9] = new Pawn(false, 3, 2);
-	Pieces[10] = new Pawn(false, 5, 2);
-	Pieces[11] = new Pawn(false, 7, 2);
-	Pieces[12] = new Pawn(true, 0, 5);
-	Pieces[13] = new Pawn(true, 2, 5);
-	Pieces[14] = new Pawn(true, 4, 5);
-	Pieces[15] = new Pawn(true, 6, 5);
-	Pieces[16] = new Pawn(true, 1, 6);
-	Pieces[17] = new Pawn(true, 3, 6);
-	Pieces[18] = new Pawn(true, 5, 6);
-	Pieces[19] = new Pawn(true, 7, 6);
-	Pieces[20] = new Pawn(true, 0, 7);
-	Pieces[21] = new Pawn(true, 2, 7);
-	Pieces[22] = new Pawn(true, 4, 7);
-	Pieces[23] = new Pawn(true, 6, 7);
+	Pieces[0] = new Pawn(false, 0, 1);
+	Pieces[1] = new Pawn(false, 0, 3);
+	Pieces[2] = new Pawn(false, 0, 5);
+	Pieces[3] = new Pawn(false, 0, 7);
+	Pieces[4] = new Pawn(false, 1, 0);
+	Pieces[5] = new Pawn(false, 1, 2);
+	Pieces[6] = new Pawn(false, 1, 4);
+	Pieces[7] = new Pawn(false, 1, 6);
+	Pieces[8] = new Pawn(false, 2, 1);
+	Pieces[9] = new Pawn(false, 2, 3);
+	Pieces[10] = new Pawn(false, 2, 5);
+	Pieces[11] = new Pawn(false, 2, 7);
+	Pieces[12] = new Pawn(true, 5, 0);
+	Pieces[13] = new Pawn(true, 5, 2);
+	Pieces[14] = new Pawn(true, 5, 4);
+	Pieces[15] = new Pawn(true, 5, 6);
+	Pieces[16] = new Pawn(true, 6, 1);
+	Pieces[17] = new Pawn(true, 6, 3);
+	Pieces[18] = new Pawn(true, 6, 5);
+	Pieces[19] = new Pawn(true, 6, 7);
+	Pieces[20] = new Pawn(true, 7, 0);
+	Pieces[21] = new Pawn(true, 7, 2);
+	Pieces[22] = new Pawn(true, 7, 4);
+	Pieces[23] = new Pawn(true, 7, 6);
+}
+
+void Board::initBoard(Pawn* pawnArray[]){
+	int i = 0;
+	for(i = 0; i < sizeof(pawnArray); i++){
+		Pieces[i] = pawnArray[i];
+	}
+
 
 }
+
+void Board::movePiece(){
+
+
+}
+
+
+
+
+
+
+
+
+

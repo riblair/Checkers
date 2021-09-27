@@ -24,6 +24,8 @@ public:
 	void printToFile(char* filename);
 	void initBoard();
 	Pawn* Pieces[24];
+	void initBoard(Pawn* pawnArray[]);
+	void movePiece();
 
 };
 
