@@ -22,8 +22,8 @@ public:
 	virtual ~Board();
 	void displayBoard();
 	void printToFile(char* filename);
-	void Board::initBoard();
-	Pawn Pieces[];
+	void initBoard();
+	Pawn* Pieces[24];
 
 };
 

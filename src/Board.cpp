@@ -12,7 +12,8 @@
 
 Board::Board() {
 	// TODO Auto-generated constructor stub
-
+	this->initBoard();
+	this->displayBoard();
 
 }
 
@@ -20,13 +21,61 @@ Board::~Board() {
 	// TODO Auto-generated destructor stub
 }
 
+// "r" = red pawn
+// "R" = red king
+// "b" = black pawn
+// "B" = black king
+// "-" = empty space
 void Board::displayBoard()
 {
-	//TODO
+	for(int i = 0; i < BOARD_SIZE; i++) {
+		for(int j = 0; j < BOARD_SIZE; j++) {
+			if( ( i + j) % 2 == 0) { // white spaces on even board places
+				printf("-");
+			}
+			else {
+				bool found = false;
+				for(Pawn* p: Pieces) {
+					if(p->returnPosition()->col == j && p->returnPosition()->row == i) { //NEED TO ADD TAKEN CHECK
+						//there is a pawn there
+						if(p->color) { //true = black, false = red
+							if(p->king) {
+								printf("B");
+								found = true;
+								break;
+							}
+							else {
+								printf("b");
+								found = true;
+								break;
+							}
+						}
+						else {
+							if(p->king) {
+								printf("R");
+								found = true;
+								break;
+							}
+							else {
+								printf("r");
+								found = true;
+								break;
+							}
+						}
+					}
+				}
+				if(!found) {
+					printf("-");
+				}
+
+			}
+		}
+		puts("");
+	}
 }
 void Board::printToFile(char* filename)
 {
-    //TODO
+	//TODO
 }
 
 void Board::initBoard(){
@@ -55,7 +104,5 @@ void Board::initBoard(){
 	Pieces[21] = new Pawn(true, 2, 7);
 	Pieces[22] = new Pawn(true, 4, 7);
 	Pieces[23] = new Pawn(true, 6, 7);
-
-
 
 }
