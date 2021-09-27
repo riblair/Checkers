@@ -108,17 +108,17 @@ void Board::initBoard(){
 
 void Board::initBoard(Pawn* pawnArray[]){
 
-	for(int i = 0; i < sizeof(pawnArray); i++){
-		Pieces[i] = pawnArray[i];
-	}
+	for(int i = 0; i < 24; i++){
+			Pieces[i] = pawnArray[i];
+		}
 
 
 }
 
 void Board::movePiece(Pawn* p, Position* newPos){
 
-	p->pos->col = newPos->col;
-	p->pos->row = newPos->row;
+	//p->pos->col = newPos->col;
+	//p->pos->row = newPos->row;
 
 
 }
