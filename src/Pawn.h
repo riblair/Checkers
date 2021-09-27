@@ -19,6 +19,7 @@ typedef struct Position
 
 class Pawn {
 public:
+	Pawn::Pawn(bool _color, int _col, int _row);
 	Pawn();
 	virtual ~Pawn();
 	void makeMove(Position* pos);

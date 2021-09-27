@@ -7,7 +7,10 @@
 
 #ifndef BOARD_H_
 #define BOARD_H_
+#include "Board.h"
+#include "Pawn.h"
 #include <stdio.h>
+#include <stdbool.h>
 
 #define BOARD_SIZE 8
 
@@ -20,7 +23,7 @@ public:
 	void displayBoard();
 	void printToFile(char* filename);
 	void Board::initBoard();
-
+	Pawn Pieces[];
 
 };
 

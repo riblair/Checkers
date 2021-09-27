@@ -8,6 +8,14 @@
 #include "Pawn.h"
 #include <stdio.h>
 #include <stdbool.h>
+Pawn::Pawn(bool _color, int _col, int _row) {
+	 color = _color;
+	 king = false;
+	 pos = new Position();
+	 pos->col = _col;
+	 pos->row = _row;
+}
+
 Pawn::Pawn() {
 	 color = false;
 	 king = false;
