@@ -24,6 +24,7 @@ public:
 	void makeMove(Position* pos);
 	Position* returnPosition();
 	bool color; //true for black, false for red?
+	bool king;
 private:
 	Position* pos;
 };

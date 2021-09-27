@@ -10,6 +10,7 @@
 #include <stdbool.h>
 Pawn::Pawn() {
 	 color = false;
+	 king = false;
 	 pos = new Position();
 	 pos->col = 0;
 	 pos->row = 0;
