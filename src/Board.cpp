@@ -60,18 +60,49 @@ void Board::initBoard(){
 }
 
 void Board::initBoard(Pawn* pawnArray[]){
-	int i = 0;
-	for(i = 0; i < sizeof(pawnArray); i++){
+
+	for(int i = 0; i < sizeof(pawnArray); i++){
 		Pieces[i] = pawnArray[i];
 	}
 
 
 }
 
-void Board::movePiece(){
+void Board::movePiece(Pawn* p, Position* newPos){
+
+	p->pos->col = newPos->col;
+	p->pos->row = newPos->row;
 
 }
 
+bool Board::checkIsWin(){
+	bool winState = false;
+	bool blackWin = false;
+	bool redTakenStreak = true;
+	bool blackTakenStreak = true;
+	for(int i = 0; i < 12; i++){	//check if reds were taken
+		if (!Pieces[i]->taken){
+			redTakenStreak = false;
+		}
+	}
+	if (redTakenStreak){
+		//all reds have been taken, black wins
+		puts("Black Won!");
+		winState = true;
+	}
+	for(int i = 12; i < 24; i++){
+		if (!Pieces[i]->taken){
+			blackTakenStreak = false;
+		}
+	}
+	if (blackTakenStreak){
+		puts("Red Won!");
+		winState = true;
+	}
+
+	return winState;
+
+}
 
 
 

@@ -25,7 +25,8 @@ public:
 	void Board::initBoard();
 	void Board::initBoard(Pawn* pawnArray[]);
 	Pawn* Pieces[];
-	void Board::movePiece();
+	void Board::movePiece(Pawn* p, Position* newPos);
+	bool Board::checkIsWin();
 
 
 };
