@@ -23,7 +23,7 @@ public:
 	void displayBoard();
 	void printToFile(char* filename);
 	void Board::initBoard();
-	Pawn Pieces[];
+	Pawn* Pieces[];
 
 };
 

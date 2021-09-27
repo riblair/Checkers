@@ -11,6 +11,7 @@
 Pawn::Pawn(bool _color, int _col, int _row) {
 	 color = _color;
 	 king = false;
+	 taken = false;
 	 pos = new Position();
 	 pos->col = _col;
 	 pos->row = _row;
@@ -19,6 +20,7 @@ Pawn::Pawn(bool _color, int _col, int _row) {
 Pawn::Pawn() {
 	 color = false;
 	 king = false;
+	 taken = false;
 	 pos = new Position();
 	 pos->col = 0;
 	 pos->row = 0;
@@ -37,4 +39,12 @@ void Pawn::makeMove(Position* pos1)
 Position* Pawn::returnPosition()
 {
 		 return pos;
+}
+
+void Pawn::makeKing(){
+	king = true;
+}
+
+void Pawn::takePawn(){
+	taken = true;
 }

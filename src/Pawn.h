@@ -24,8 +24,11 @@ public:
 	virtual ~Pawn();
 	void makeMove(Position* pos);
 	Position* returnPosition();
+	void Pawn::makeKing();
+	void Pawn::takePawn();
 	bool color; //true for black, false for red?
 	bool king;
+	bool taken;
 private:
 	Position* pos;
 };

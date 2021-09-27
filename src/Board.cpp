@@ -57,5 +57,4 @@ void Board::initBoard(){
 	Pieces[23] = new Pawn(true, 6, 7);
 
 
-
 }
