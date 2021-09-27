@@ -19,13 +19,13 @@ typedef struct Position
 
 class Pawn {
 public:
-	Pawn::Pawn(bool _color, int _row, int _col);
+	Pawn(bool _color, int _row, int _col);
 	Pawn();
 	virtual ~Pawn();
 	void makeMove(Position* pos);
 	Position* returnPosition();
-	void Pawn::makeKing();
-	void Pawn::takePawn();
+	void makeKing();
+	void takePawn();
 	bool color; //true for black, false for red?
 	bool king;
 	bool taken;

@@ -46,11 +46,9 @@ bool Tests::testReadFile()
 
 	Board* theBoard = new Board();
 
-
 	Production* pP = new Production();
 
 	ok = pP->readFile("gameState.txt", theBoard); //read the file
-
 	theBoard->displayBoard();
 	ok = pP->getYesNo("Does the board look right?");
 	if(ok)
@@ -183,16 +181,6 @@ bool Tests::testmakeMove()
 		{
 			ok = false;
 		}
-	King* king1 = new King();
-	king1->makeMove(testPos1);
-	if(king1->returnPosition()->row != testPos1->row)
-		{
-			ok = false;
-		}
-		if(king1->returnPosition()->col != testPos1->col)
-			{
-				ok = false;
-			}
 	if(ok)
 			{
 				puts("testMakeMove did pass");
