@@ -25,6 +25,8 @@ private:
 	//pedagogical bool testRemoveFromList();
 	bool testPrintHistory();
 	bool testFileOutput();
+	bool testReturnPos();
+	bool testmakeMove();
 };
 
 #endif /* TESTS_H_ */
