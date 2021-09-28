@@ -124,30 +124,29 @@ void Board::movePiece(Pawn* p, Position* newPos){
 }
 
 bool Board::checkIsWin(){
+
 	bool winState = false;
-	bool blackWin = false;
-	bool redTakenStreak = true;
-	bool blackTakenStreak = true;
-	for(int i = 0; i < 12; i++){	//check if reds were taken
-		if (!Pieces[i]->taken){
-			redTakenStreak = false;
+	int redTally = 0;
+	int blackTally = 0;
+	for(int i=0; i< sizeof(Pieces); i++){
+		if (Pieces[i]->pos->col == -1){
+			if(Pieces[i]->color == true){
+				blackTally++;
+			}
+			else {
+				redTally++;
+			}
 		}
 	}
-	if (redTakenStreak){
+	if (redTally == 0){
 		//all reds have been taken, black wins
 		puts("Black Won!");
 		winState = true;
 	}
-	for(int i = 12; i < 24; i++){
-		if (!Pieces[i]->taken){
-			blackTakenStreak = false;
-		}
-	}
-	if (blackTakenStreak){
+	if (blackTally == 0){
 		puts("Red Won!");
 		winState = true;
 	}
-
 	return winState;
 
 }
