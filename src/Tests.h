@@ -19,14 +19,13 @@ public:
 
 private:
 	bool testReadFile();
-	bool testEnqueue();
-	bool testGotAdjacencyMatrix();
-	bool testMakeLList();
-	//pedagogical bool testRemoveFromList();
 	bool testPrintHistory();
 	bool testFileOutput();
 	bool testReturnPos();
 	bool testmakeMove();
+	bool testdisplayBoard();
+	bool testprintToFile();
+
 };
 
 #endif /* TESTS_H_ */

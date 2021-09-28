@@ -23,29 +23,12 @@ bool Production::prod(int argc, char* argv[])
 	printf("Starting Production\n");
 	bool answer = false;
 
-	if(argc <=1) //no interesting information
-	{
-		puts("Didn't find any arguments.");
-		fflush(stdout);
-		answer = false;
-	}
-	else //there is interesting information
-	{
-		printf("Found %d interesting arguments.\n", argc-1);
-		fflush(stdout);
-		char filename[FILENAMELENGTHALLOWANCE];
-		//char* eptr=(char*)malloc(sizeof(char*));
 
-		//we'll want to read the file
-		Board* theBoard = new Board();
+	//Prob need to make the game run here
+	Board* theBoard = new Board();
+	theBoard->initBoard();
 
-		puts("Before read file"); fflush(stdout);
-		answer = readFile(filename, theBoard); //read the file
-		puts("Back from read file"); fflush(stdout);
 
-		//Prob need to make the game run here
-
-	}
 	return answer;
 }
 
