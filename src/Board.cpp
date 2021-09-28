@@ -129,7 +129,7 @@ bool Board::checkIsWin(){
 	int redTally = 0;
 	int blackTally = 0;
 	for(int i=0; i< sizeof(Pieces); i++){
-		if (Pieces[i]->pos->col == -1){
+		if (!(Pieces[i]->pos->col == -1)){
 			if(Pieces[i]->color == true){
 				blackTally++;
 			}
