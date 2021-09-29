@@ -231,8 +231,17 @@ bool Board::checkIsWin(){ // needs to check if either team has no legal moves
 
 }
 
+void Board::takePawnAtPosition(Position* pos) {
+	//TODO write method
 
-
+	for(Pawn* pawn:Pieces) {
+		if(pos->col == pawn->pos->col && pos->row == pawn->pos->row) {
+			pawn->takePawn();
+			return;
+		}
+	}
+	puts("SOMETHING WENT WRONG AND A PIECE WASNT CAPTURED!!!");
+}
 
 
 
