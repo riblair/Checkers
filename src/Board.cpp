@@ -226,6 +226,7 @@ bool Board::checkIsWin(){ // needs to check if either team has no legal moves
 			puts("Red Won!");
 			winState = true;
 		}//*/
+
 	return winState;
 
 }

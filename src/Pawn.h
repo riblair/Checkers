@@ -26,9 +26,10 @@ public:
 	Position* returnPosition();
 	void makeKing();
 	void takePawn();
-	bool color; //true for black, false for red?
+	bool color; //true for black, false for red
 	bool king;
 	bool taken;
+	void checkPromote();
 //private:			//for checkIsWin to work
 	Position* pos;
 };
