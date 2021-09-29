@@ -8,6 +8,10 @@
 #include "Production.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string>
+#include <stdbool.h>
+#include <cstring>
+using namespace std;
 
 Production::Production() {
 	// TODO Auto-generated constructor stub
@@ -23,13 +27,65 @@ bool Production::prod(int argc, char* argv[])
 	printf("Starting Production\n");
 	bool answer = false;
 
+	if(argc <=1) //no interesting information
+	{
+		puts("Didn't find any arguments.");
+		fflush(stdout);
+		answer = false;
+	}
+	else //there is interesting information
+	{
+		printf("Found %d interesting arguments.\n", argc-1);
+		fflush(stdout);
+		bool turnBool = false;
+		int maxMoves = -1;
 
+		for(int i = 1; i<argc; i++) //don't want to read argv[0]
+		{//argv[i] is a string
+
+			switch(i)
+			{
+			case 1:
+				//this is the bool for turn order (true = black has first move)
+				if((strcmp(argv[i], "false") == 0)||(strcmp(argv[i], "False") == 0)){
+					turnBool = false;
+				}
+				else if((strcmp(argv[i], "true") == 0)||(strcmp(argv[i], "True") == 0)){
+					turnBool = true;
+				}
+				else{
+					puts("Unexpected argument.");
+					fflush(stdout);
+				}
+				if (turnBool)
+					puts("Black goes first");
+				else
+					puts("Red goes first");
+				fflush(stdout);
+				break;
+			case 2:
+				//this is int for maximum number of moves
+				maxMoves = atoi(argv[i]);
+				printf("The maximum number of moves is %d", maxMoves);
+				fflush(stdout);
+				break;
+			default:
+				puts("Unexpected argument count.");
+				fflush(stdout);
+				answer = false;
+				break;
+
+			}
+		}
+
+	}
 	//Prob need to make the game run here
 	Board* theBoard = new Board();
 	theBoard->initBoard();
 
 
 	return answer;
+
 }
 
 bool Production::readFile(char* filename, Board* theBoard)
