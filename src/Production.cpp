@@ -50,12 +50,10 @@ bool Production::readFile(char* filename, Board* theBoard)
 		//TODO read the board from the file,
 		for(int row = 0; row < 8; row++)
 		{
-			printf("on row %d\n", row);fflush(stdout);
 
 			for(int col = 0; col < 8; col++)
 			{
 				fscanf(fp,"%c", &tempo);
-				printf("in column %d, read %c\n", col, tempo);fflush(stdout);
 
 				if(tempo == 'r')
 				{
