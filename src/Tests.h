@@ -25,6 +25,7 @@ private:
 	bool testmakeMove();
 	bool testdisplayBoard();
 	bool testprintToFile();
+	bool testCheckIsWin();
 
 };
 

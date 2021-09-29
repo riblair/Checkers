@@ -30,7 +30,8 @@ bool Tests::tests()
 	bool ok5 = testmakeMove();
 	bool ok6 = testdisplayBoard();
 	bool ok7 = testprintToFile();
-	answer = ok1 && ok2 && ok3  && ok4 && ok5 && ok6 && ok7;
+	bool ok8 = testCheckIsWin();
+	answer = ok1 && ok2 && ok3  && ok4 && ok5 && ok6 && ok7 && ok8;
 	return answer;
 }
 
@@ -243,6 +244,27 @@ bool Tests::testprintToFile() {
 	else
 	{
 		puts("testprintToFile did not pass.");
+	}
+
+	return ok;
+}
+
+bool Tests::testCheckIsWin()
+{
+	bool ok = true;
+
+	Board* theBoard = new Board();
+	Production* pP = new Production();
+	pP->readFile("testCheckIsWin.txt", theBoard); //read the file
+	ok = theBoard->checkIsWin();
+
+	if(ok)
+	{
+		puts("testCheckIsWin did pass");
+	}
+	else
+	{
+		puts("testCheckIsWin did not pass.");
 	}
 
 	return ok;

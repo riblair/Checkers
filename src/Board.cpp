@@ -203,27 +203,29 @@ void Board::movePiece(Pawn* p, Position* newPos){
 bool Board::checkIsWin(){ // needs to check if either team has no legal moves
 
 	bool winState = false;
-	//	int redTally = 0;
-	//	int blackTally = 0;
-	//	for(int i=0; i< sizeof(Pieces); i++){
-	//		if (!(Pieces[i]->pos->col == -1)){
-	//			if(Pieces[i]->color == true){
-	//				blackTally++;
-	//			}
-	//			else {
-	//				redTally++;
-	//			}
-	//		}
-	//	}
-	//	if (redTally == 0){
-	//		//all reds have been taken, black wins
-	//		puts("Black Won!");
-	//		winState = true;
-	//	}
-	//	if (blackTally == 0){
-	//		puts("Red Won!");
-	//		winState = true;
-	//	}
+	///*
+		int redTally = 0;
+		int blackTally = 0;
+		int max = sizeof(Pieces)/sizeof(Pieces[0]);
+		for(int i = 0; i < max; i++){
+			if (!(Pieces[i]->pos->col == -1)){
+				if(Pieces[i]->color == true){
+					blackTally++;
+				}
+				else {
+					redTally++;
+				}
+			}
+		}
+		if (redTally == 0){
+			//all reds have been taken, black wins
+			puts("Black Won!");
+			winState = true;
+		}
+		if (blackTally == 0){
+			puts("Red Won!");
+			winState = true;
+		}//*/
 	return winState;
 
 }

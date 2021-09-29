@@ -29,7 +29,7 @@ public:
 	bool color; //true for black, false for red?
 	bool king;
 	bool taken;
-private:
+//private:			//for checkIsWin to work
 	Position* pos;
 };
 
