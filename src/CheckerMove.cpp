@@ -11,6 +11,7 @@
 
 CheckerMove::CheckerMove() {
 	// TODO Auto-generated constructor stub
+	moves = new std::list<possibleMoveNode>;
 
 }
 
@@ -106,6 +107,17 @@ bool CheckerMove::isLegal(Board* board, Position* pawn, Position* possibleMove) 
 			}
 		}
 	}
-
 	return false;
+}
+
+void CheckerMove::findAllLegalMoves(Board* board, bool side) {
+
+	moves = new std::list<possibleMoveNode>;
+
+
+	//for each pawn
+	// check if the color matches the side
+	// for each of thier positions, +1,+2,-1,-2
+		//if move is legal
+			// record it to moves List.
 }

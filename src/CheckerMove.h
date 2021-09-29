@@ -8,16 +8,22 @@
 #ifndef CHECKERMOVE_H_
 #define CHECKERMOVE_H_
 #include "Board.h"
+#include <list>
 
+typedef struct possibleMoveNode{
+		Position* pawnLoc;
+		Position* moveLoc;
+	}possibleMoveNode;
 
 class CheckerMove {
+
 public:
 	CheckerMove();
 	virtual ~CheckerMove();
 	bool isLegal(Board* board, Position* pawn, Position* possibleMove); // board state, start pos (struct), end pos (struct),
-	//mybe more office hours
+	void findAllLegalMoves(Board* board, bool side); //true = black move, false = red move.
 private:
-
+	std::list<possibleMoveNode> moves;
 };
 
 
