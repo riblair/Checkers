@@ -136,7 +136,15 @@ void CheckerMove::findAllLegalMoves(Board* board, bool side) {
 						made.moveLoc = possibleMove;
 						moves.push_back(made);
 					}
-
+					possibleMove->row = pawn->pos->row - x;
+					possibleMove->col = pawn->pos->col + x;
+					if(isLegal(board,pawn->pos,possibleMove))
+					{
+						possibleMoveNode made;
+						made.pawnLoc = pawn->pos;
+						made.moveLoc = possibleMove;
+						moves.push_back(made);
+					}
 				}
 
 			}
