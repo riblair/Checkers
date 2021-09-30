@@ -175,32 +175,32 @@ bool Production::readFile(char* filename, Board* theBoard)
 				if(tempo == 'r')
 				{
 					//TODO Create new red pawn, add it to board?
-					Pawn* temp = new Pawn(false,row,col);
-					newBoard[pos] = temp;
+					Pawn* temp1 = new Pawn(false,row,col);
+					newBoard[pos] = temp1;
 					pos++;
 				}
 				else if(tempo == 'R')
 				{
 					//TODO Create new red king, add it to board?
-					Pawn* temp = new Pawn(false,row,col);
-					temp->makeKing();
-					newBoard[pos] = temp;
+					Pawn* temp2 = new Pawn(false,row,col);
+					temp2->makeKing();
+					newBoard[pos] = temp2;
 					pos++;
 				}
 				else if (tempo == 'b')
 				{
 					//TODO Create new black pawn, add it to board?
-					Pawn* temp = new Pawn(true,row,col);
-					newBoard[pos] = temp;
+					Pawn* temp3 = new Pawn(true,row,col);
+					newBoard[pos] = temp3;
 					pos++;
 
 				}
 				else if (tempo == 'B')
 				{
 					//TODO Create new black king, add it to board?
-					Pawn* temp = new Pawn(true,row,col);
-					temp->makeKing();
-					newBoard[pos] = temp;
+					Pawn* temp4 = new Pawn(true,row,col);
+					temp4->makeKing();
+					newBoard[pos] = temp4;
 					pos++;
 				}
 			}
