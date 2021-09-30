@@ -38,12 +38,20 @@ bool CheckerMove::isLegal(Board* board, Position* pawn, Position* possibleMove) 
 	// if a pawn exists && is of the opposite color,
 	// return true
 	// else return false
+	Pawn* thePawn;
 	for(Pawn* pawns: board->Pieces)
-	    {
-	        if(possibleMove->col == pawns->pos->col && possibleMove->row == pawns->pos->row) {
-	            return false;
-	        }
-	    }
+	{
+		if(pawn->col == pawns->pos->col && pawn->row == pawns->pos->row)
+		{
+			thePawn = pawns;
+		}
+	}
+	for(Pawn* pawns: board->Pieces)
+	{
+		if(possibleMove->col == pawns->pos->col && possibleMove->row == pawns->pos->row) {
+			return false;
+		}
+	}
 	//possibleMove out of bounds
 	if(possibleMove->col < 0 || possibleMove->col > 7 || possibleMove->row < 0 || possibleMove->row > 7 )
 	{
@@ -51,65 +59,64 @@ bool CheckerMove::isLegal(Board* board, Position* pawn, Position* possibleMove) 
 	}
 	else
 	{
-		for(Pawn* pawns: board->Pieces)
+
+		//checks if there is a pawn in possibleMove
+		if(possibleMove->col == thePawn->pos->col && possibleMove->row == thePawn->pos->row) {
+			return false;
+		}
+		//checks for a pawn in pawn position
+		else if(pawn->col == thePawn->pos->col && pawn->row == thePawn->pos->row)
 		{
-			//checks if there is a pawn in possibleMove
-			if(possibleMove->col == pawns->pos->col && possibleMove->row == pawns->pos->row) {
-				return false;
-			}
-			//checks for a pawn in pawn position
-			else if(pawn->col == pawns->pos->col && pawn->row == pawns->pos->row)
+			//checks pawn is not a king
+			if(!thePawn->king)
 			{
-				//checks pawn is not a king
-				if(!pawns->king)
+				if(thePawn->color) //if black
 				{
-					if(pawns->color) //if black
+					if(thePawn->pos->row <= possibleMove->row)//if move is backwards
 					{
-						if(pawns->pos->row <= possibleMove->row)//if move is backwards
-						{
 
-							return false;
-						}
-					}
-					else //if red
-					{
-						if(pawns->pos->row >= possibleMove->row)//if move is backwards
-						{
-							return false;
-						}
+						return false;
 					}
 				}
-				int distance = abs(pawns->pos->row - possibleMove->row);
-				if(distance == 1) //no pawn in the way, and the distance is one, return true
+				else //if red
 				{
-					return true;
-				}
-				else //know that possibleMove is two away
-				{
-					int dy = (possibleMove->row - pawns->pos->row)/2;
-					int dx = (possibleMove->col - pawns->pos->col)/2;
-					Position* between = new Position();
-					between->row = (possibleMove->row - dy);
-					between->col = (possibleMove->col - dx);
-
-					for(Pawn* capture: board->Pieces)
+					if(thePawn->pos->row >= possibleMove->row)//if move is backwards
 					{
-						//check that there is a pawn in between possibleMove and pawn position
-						if(between->col == capture->pos->col && between->row == capture->pos->row) {
-							//checks that the pawns are opposite color
-							if(capture->color != pawns->color)
-							{
-								return true;
-							}
-							return false;
-						}
-
+						return false;
 					}
 				}
-
 			}
+			int distance = abs(thePawn->pos->row - possibleMove->row);
+			if(distance == 1) //no pawn in the way, and the distance is one, return true
+			{
+				return true;
+			}
+			else //know that possibleMove is two away
+			{
+				int dy = (possibleMove->row - thePawn->pos->row)/2;
+				int dx = (possibleMove->col - thePawn->pos->col)/2;
+				Position* between = new Position();
+				between->row = (possibleMove->row - dy);
+				between->col = (possibleMove->col - dx);
+
+				for(Pawn* capture: board->Pieces)
+				{
+					//check that there is a pawn in between possibleMove and pawn position
+					if(between->col == capture->pos->col && between->row == capture->pos->row) {
+						//checks that the pawns are opposite color
+						if(capture->color != thePawn->color)
+						{
+							return true;
+						}
+						return false;
+					}
+
+				}
+			}
+
 		}
 	}
+
 	return false;
 }
 
