@@ -1,4 +1,4 @@
-/*
+	/*
  * Tests.cpp
  *
  *  Created on: Feb 1, 2020
@@ -356,25 +356,38 @@ bool Tests::testisLegal()
 }
 
 bool Tests::testfindAllLegalMoves() {
-	bool ok = false;
+	bool ok = true;
 
 	Board* testLegal = new Board();
 	CheckerMove* check = new CheckerMove();
 	testLegal->initBoard();
-	Production* pP = new Production();
 	check->findAllLegalMoves(testLegal, true); // black will go first
 	int size = (int)check->moves.size();
-	puts("testing basic board");
+	puts("testing basic board black start");
 	printf("The size of 'moves' is %d\n",size);
+	check->printMoves();
 	if(size == 7) {
 		puts("the size is correct!");
-		ok = true;
+		ok = ok && true;
 	}
 	else {
 		puts("the size is INCORRECT!");
 		ok = false;
 	}
+	puts("testing basic board red start");
 
+	check->findAllLegalMoves(testLegal, false);
+	size = (int)check->moves.size();
+	check->printMoves();
+	printf("The size of 'moves' is %d\n",size);
+		if(size == 7) {
+			puts("the size is correct!");
+			ok = ok && true;
+		}
+		else {
+			puts("the size is INCORRECT!");
+			ok = false;
+		}
 	puts("testing solo King");
 
 	Pawn* Pieces2[24];
@@ -408,9 +421,10 @@ bool Tests::testfindAllLegalMoves() {
 	check->findAllLegalMoves(testLegal, false);
 	size = (int)check->moves.size();
 	printf("The size of 'moves' is %d\n",size);
+	check->printMoves();
 	if(size == 4) {
 		puts("the size is correct!");
-		ok = true;
+		ok = ok && true;
 	}
 	else {
 		puts("the size is INCORRECT!");

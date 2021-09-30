@@ -14,8 +14,8 @@ using namespace std;
 int main(int argc, char* argv[]) {
 	cout << "!!!Hello World,  we are on HW5!!!" << endl;
 	Tests* tsP = new Tests();
-	//if(tsP->tests())
-	if(true)
+	if(tsP->tests())
+	//if(true)
 	{
         Production* pP = new Production();
         if(pP->prod(argc, argv))

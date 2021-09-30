@@ -38,7 +38,12 @@ bool CheckerMove::isLegal(Board* board, Position* pawn, Position* possibleMove) 
 	// if a pawn exists && is of the opposite color,
 	// return true
 	// else return false
-
+	for(Pawn* pawns: board->Pieces)
+	    {
+	        if(possibleMove->col == pawns->pos->col && possibleMove->row == pawns->pos->row) {
+	            return false;
+	        }
+	    }
 	//possibleMove out of bounds
 	if(possibleMove->col < 0 || possibleMove->col > 7 || possibleMove->row < 0 || possibleMove->row > 7 )
 	{
@@ -150,5 +155,12 @@ void CheckerMove::findAllLegalMoves(Board* board, bool side) {
 
 			}
 		}
+	}
+}
+
+void CheckerMove::printMoves()
+{
+	for(possibleMoveNode theMove : moves) {
+		printf("WE ARE MOVING PAWN AT (%d,%d), TO (%d,%d) \n", theMove.pawnLoc->row,theMove.pawnLoc->col,theMove.moveLoc->row,theMove.moveLoc->col);
 	}
 }
