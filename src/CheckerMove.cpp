@@ -74,39 +74,40 @@ bool CheckerMove::isLegal(Board* board, Position* pawn, Position* possibleMove) 
 						}
 					}
 				}
-					int distance = abs(pawns->pos->row - possibleMove->row);
-					if(distance == 1) //no pawn in the way, and the distance is one, return true
-					{
-						return true;
-					}
-					else //know that possibleMove is two away
-					{
-						int dy = (possibleMove->row - pawns->pos->row)/2;
-						int dx = (possibleMove->col - pawns->pos->col)/2;
-						Position* between = new Position();
-						between->row = (possibleMove->row - dy);
-						between->col = (possibleMove->col - dx);
+				int distance = abs(pawns->pos->row - possibleMove->row);
+				if(distance == 1) //no pawn in the way, and the distance is one, return true
+				{
+					return true;
+				}
+				else //know that possibleMove is two away
+				{
+					int dy = (possibleMove->row - pawns->pos->row)/2;
+					int dx = (possibleMove->col - pawns->pos->col)/2;
+					Position* between = new Position();
+					between->row = (possibleMove->row - dy);
+					between->col = (possibleMove->col - dx);
 
-						for(Pawn* capture: board->Pieces)
-						{
-							//check that there is a pawn in between possibleMove and pawn position
-							if(between->col == capture->pos->col && between->row == capture->pos->row) {
-								//checks that the pawns are opposite color
-								if(capture->color != pawns->color)
-								{
-									return true;
-								}
-								return false;
+					for(Pawn* capture: board->Pieces)
+					{
+						//check that there is a pawn in between possibleMove and pawn position
+						if(between->col == capture->pos->col && between->row == capture->pos->row) {
+							//checks that the pawns are opposite color
+							if(capture->color != pawns->color)
+							{
+								return true;
 							}
-
+							return false;
 						}
+
 					}
+				}
 
 			}
 		}
 	}
 	return false;
 }
+
 
 void CheckerMove::findAllLegalMoves(Board* board, bool side) {
 

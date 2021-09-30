@@ -22,7 +22,6 @@ public:
 	virtual ~CheckerMove();
 	bool isLegal(Board* board, Position* pawn, Position* possibleMove); // board state, start pos (struct), end pos (struct),
 	void findAllLegalMoves(Board* board, bool side); //true = black move, false = red move.
-private:
 	std::list<possibleMoveNode> moves;
 };
 

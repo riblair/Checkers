@@ -32,7 +32,8 @@ bool Tests::tests()
 	bool ok7 = testprintToFile();
 	bool ok8 = testCheckIsWin();
 	bool ok9 = testisLegal();
-	answer = ok1 && ok2 && ok3  && ok4 && ok5 && ok6 && ok7 && ok8 && ok9;
+	bool ok10 = testfindAllLegalMoves();
+	answer = ok1 && ok2 && ok3  && ok4 && ok5 && ok6 && ok7 && ok8 && ok9 && ok10;
 	return answer;
 }
 
@@ -350,6 +351,77 @@ bool Tests::testisLegal()
 	else
 	{
 		puts("testisLegal did not pass.");
+	}
+	return ok;
+}
+
+bool Tests::testfindAllLegalMoves() {
+	bool ok = false;
+
+	Board* testLegal = new Board();
+	CheckerMove* check = new CheckerMove();
+	testLegal->initBoard();
+	Production* pP = new Production();
+	check->findAllLegalMoves(testLegal, true); // black will go first
+	int size = (int)check->moves.size();
+	puts("testing basic board");
+	printf("The size of 'moves' is %d\n",size);
+	if(size == 7) {
+		puts("the size is correct!");
+		ok = true;
+	}
+	else {
+		puts("the size is INCORRECT!");
+		ok = false;
+	}
+
+	puts("testing solo King");
+
+	Pawn* Pieces2[24];
+	Pieces2[0] = new Pawn(false, 2, 3);
+	Pieces2[1] = new Pawn(true, -1, -1);
+	Pieces2[2] = new Pawn(true, -1, -1);
+	Pieces2[3] = new Pawn(true, -1, -1);
+	Pieces2[4] = new Pawn(true, -1, -1);
+	Pieces2[5] = new Pawn(true, -1, -1);
+	Pieces2[6] = new Pawn(true, -1, -1);
+	Pieces2[7] = new Pawn(true, -1, -1);
+	Pieces2[8] = new Pawn(true, -1, -1);
+	Pieces2[9] = new Pawn(true, -1, -1);
+	Pieces2[10] = new Pawn(true, -1, -1);
+	Pieces2[11] = new Pawn(true, -1, -1);
+	Pieces2[12] = new Pawn(true, -1, -1);
+	Pieces2[13] = new Pawn(true, -1, -1);
+	Pieces2[14] = new Pawn(true, -1, -1);
+	Pieces2[15] = new Pawn(true, -1, -1);
+	Pieces2[16] = new Pawn(true, -1, -1);
+	Pieces2[17] = new Pawn(true, -1, -1);
+	Pieces2[18] = new Pawn(true, -1, -1);
+	Pieces2[19] = new Pawn(true, -1, -1);
+	Pieces2[20] = new Pawn(true, -1, -1);
+	Pieces2[21] = new Pawn(true, -1, -1);
+	Pieces2[22] = new Pawn(true, -1, -1);
+	Pieces2[23] = new Pawn(true, -1, -1);
+
+	Pieces2[0]->king = true;
+	testLegal->initBoard(Pieces2);
+	check->findAllLegalMoves(testLegal, false);
+	size = (int)check->moves.size();
+	printf("The size of 'moves' is %d\n",size);
+	if(size == 4) {
+		puts("the size is correct!");
+		ok = true;
+	}
+	else {
+		puts("the size is INCORRECT!");
+		ok = false;
+	}
+
+	if(ok) {
+		puts("testfindAllLegalMoves passed!");
+	}
+	else {
+		puts("testfindAllLegalMoves did not pass!");
 	}
 	return ok;
 }

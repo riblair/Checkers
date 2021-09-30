@@ -27,6 +27,7 @@ private:
 	bool testprintToFile();
 	bool testCheckIsWin();
 	bool testisLegal();
+	bool testfindAllLegalMoves();
 };
 
 #endif /* TESTS_H_ */
