@@ -51,7 +51,7 @@ bool Tests::testReadFile()
 
 	Production* pP = new Production();
 
-	ok = pP->readFile("gameState.txt", theBoard); //read the file
+	ok = pP->readFile("gameStateTest.txt", theBoard); //read the file
 	theBoard->displayBoard();
 	ok = pP->getYesNo("Does the board look right?");
 	if(ok)

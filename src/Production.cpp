@@ -87,7 +87,7 @@ bool Production::prod(int argc, char* argv[])
 	//Prob need to make the game run here
 	FILE* fp;
 	fp = fopen("boards.txt", "w");
-	fprintf(fp, "Here goes nothing :P\n");
+	fprintf(fp,"");
 	fclose(fp);
 	Board* theBoard = new Board();
 	theBoard->initBoard();
@@ -103,6 +103,9 @@ bool Production::prod(int argc, char* argv[])
 			gameCheck->findAllLegalMoves(theBoard, turnBool);
 			int movesSize = (int)gameCheck->moves.size();
 			printf("the number of legal moves this turn is %d\n",movesSize);
+			FILE* fp = fopen("boards.txt","a");
+			fprintf(fp, "the number of legal moves this turn is %d\n",movesSize);
+			fclose(fp);
 			int move = rand() % movesSize;
 			for(int x = 0; x < move; x++)
 			{
@@ -127,6 +130,9 @@ bool Production::prod(int argc, char* argv[])
 					}
 
 					printf("WE ARE MOVING PAWN AT (%d,%d), TO (%d,%d) \n", theMove.pawnLoc->row,theMove.pawnLoc->col,theMove.moveLoc->row,theMove.moveLoc->col);
+					FILE* fp = fopen("boards.txt", "a");
+					fprintf(fp, "WE ARE MOVING PAWN AT (%d,%d), TO (%d,%d) \n", theMove.pawnLoc->row,theMove.pawnLoc->col,theMove.moveLoc->row,theMove.moveLoc->col);
+					fclose(fp);
 					pawn->makeMove(theMove.moveLoc);
 				}
 
@@ -138,13 +144,6 @@ bool Production::prod(int argc, char* argv[])
 			turnBool = !turnBool;
 			gameFinished = theBoard->checkIsWin();
 			turnsPlayed++;
-			//read file
-			//find legal moves
-			//choose random legal move
-			//make move
-			//update board (update pawn array
-			//output updated board
-
 		}
 		return answer;
 	}

@@ -32,8 +32,7 @@ void Board::displayBoard()
 {
 	for(int i = 0; i < BOARD_SIZE; i++) {
 		for(int j = 0; j < BOARD_SIZE; j++) {
-			//if( ( i + j) % 2 == 0) { // white spaces on even board places
-			if(false) {
+			if( ( i + j) % 2 == 0) { // white spaces on even board places
 				printf("-");
 			}
 			else {
@@ -153,6 +152,7 @@ void Board::printToFile(char* filename)
 		}
 		fprintf(fp,"\n");
 	}
+	fprintf(fp,"\n");
 	fclose(fp);
 }
 
