@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <cstring>
+#include <fstream>
 
 Board::Board() {
 	// TODO Auto-generated constructor stub

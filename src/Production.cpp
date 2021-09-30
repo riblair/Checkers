@@ -85,6 +85,10 @@ bool Production::prod(int argc, char* argv[])
 
 
 	//Prob need to make the game run here
+	FILE* fp;
+	fp = fopen("boards.txt", "w");
+	fprintf(fp, "Here goes nothing :P\n");
+	fclose(fp);
 	Board* theBoard = new Board();
 	theBoard->initBoard();
 	theBoard->printToFile("gameState.txt");
