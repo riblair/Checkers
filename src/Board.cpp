@@ -192,13 +192,6 @@ void Board::initBoard(Pawn* pawnArray[]){
 
 }
 
-void Board::movePiece(Pawn* p, Position* newPos){
-
-	//p->pos->col = newPos->col;
-	//p->pos->row = newPos->row;
-
-
-}
 
 bool Board::checkIsWin(){ // needs to check if either team has no legal moves
 

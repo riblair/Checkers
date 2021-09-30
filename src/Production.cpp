@@ -6,6 +6,8 @@
  */
 
 #include "Production.h"
+#include "CheckerMove.h"
+#include "Board.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string>
@@ -26,7 +28,8 @@ bool Production::prod(int argc, char* argv[])
 {
 	printf("Starting Production\n");
 	bool answer = false;
-
+	int maxMoves = -1;
+	bool turnBool = false;
 	if(argc <=1) //no interesting information
 	{
 		puts("Didn't find any arguments.");
@@ -37,8 +40,7 @@ bool Production::prod(int argc, char* argv[])
 	{
 		printf("Found %d interesting arguments.\n", argc-1);
 		fflush(stdout);
-		bool turnBool = false;
-		int maxMoves = -1;
+
 
 		for(int i = 1; i<argc; i++) //don't want to read argv[0]
 		{//argv[i] is a string
@@ -82,6 +84,43 @@ bool Production::prod(int argc, char* argv[])
 	//Prob need to make the game run here
 	Board* theBoard = new Board();
 	theBoard->initBoard();
+	CheckerMove* gameCheck = new CheckerMove();
+
+
+	for(int j = 0; j < maxMoves; j++){
+
+		bool gameFinished = theBoard->checkIsWin()
+
+		while (!gameFinished){
+
+			readFile("gameState", theBoard);
+			gameCheck->findAllLegalMoves(theBoard, turnBool);
+			turnBool = !turnBool;
+			int movesSize = (int)gameCheck->moves.size();
+			int move = rand() % movesSize;
+
+
+
+		}
+
+
+			//read file
+	//find legal moves
+	//choose random legal move
+	//make move
+	//update board (update pawn array
+	//output updated board
+
+
+
+		}
+
+
+	}
+
+
+
+
 
 
 
