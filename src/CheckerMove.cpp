@@ -39,6 +39,7 @@ bool CheckerMove::isLegal(Board* board, Position* pawn, Position* possibleMove) 
 	// return true
 	// else return false
 	Pawn* thePawn;
+	// the bruh
 	for(Pawn* pawns: board->Pieces)
 	{
 		if(pawn->col == pawns->pos->col && pawn->row == pawns->pos->row)

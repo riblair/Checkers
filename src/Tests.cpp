@@ -8,6 +8,7 @@
 #include "Tests.h"
 #include <stdbool.h>
 #include "Pawn.h"
+#include <fstream>
 
 
 Tests::Tests() {
