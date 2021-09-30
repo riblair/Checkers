@@ -113,6 +113,7 @@ void CheckerMove::findAllLegalMoves(Board* board, bool side) {
 
 	moves.clear();
 
+
 	//for each pawn
 	// check if the color matches the side
 	// for each of thier positions, +1,+2,-1,-2

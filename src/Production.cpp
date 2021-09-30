@@ -68,7 +68,7 @@ bool Production::prod(int argc, char* argv[])
 			case 2:
 				//this is int for maximum number of moves
 				maxMoves = atoi(argv[i]);
-				printf("The maximum number of moves is %d", maxMoves);
+				printf("The maximum number of moves is %d\n", maxMoves);
 				fflush(stdout);
 				break;
 			default:
@@ -78,7 +78,6 @@ bool Production::prod(int argc, char* argv[])
 				break;
 
 			}
-			puts("this is running");
 		}
 
 
@@ -92,49 +91,49 @@ bool Production::prod(int argc, char* argv[])
 	theBoard->printToFile("boards.txt");
 	CheckerMove* gameCheck = new CheckerMove();
 
-	puts("this is running");
-	for(int j = 0; j < maxMoves; j++){
-		puts("this is running2");
+	int turnsPlayed = 0;
+	bool gameFinished = theBoard->checkIsWin();
 
-		bool gameFinished = theBoard->checkIsWin();
-
-		while (!gameFinished){
-			puts("this is running3");
-
-			readFile("gameState", theBoard);
+		while (turnsPlayed < maxMoves && !gameFinished){
+			readFile("gameState.txt", theBoard);
 			gameCheck->findAllLegalMoves(theBoard, turnBool);
 			int movesSize = (int)gameCheck->moves.size();
+			printf("the number of legal moves this turn is %d\n",movesSize);
 			int move = rand() % movesSize;
 			for(int x = 0; x < move; x++)
 			{
 				gameCheck->moves.pop_front();
 			}
-			possibleMoveNode* theMove;
-			theMove->moveLoc = gameCheck->moves.front().moveLoc;
-			theMove->pawnLoc = gameCheck->moves.front().pawnLoc;
+			possibleMoveNode theMove;
+			theMove.moveLoc = gameCheck->moves.front().moveLoc;
+			theMove.pawnLoc = gameCheck->moves.front().pawnLoc;
 			for(Pawn* pawn: theBoard->Pieces)
 			{
-				if(pawn->pos->col == theMove->pawnLoc->col && pawn->pos->row == theMove->pawnLoc->row  )
+				if(pawn->pos->col == theMove.pawnLoc->col && pawn->pos->row == theMove.pawnLoc->row  )
 				{
-					if(abs(theMove->moveLoc->col - pawn->pos->col)==2)
+					if(abs(theMove.moveLoc->col - pawn->pos->col)==2)
 					{
-						int dy = (theMove->moveLoc->row - pawn->pos->row)/2;
-						int dx = (theMove->moveLoc->col - pawn->pos->col)/2;
+						puts("we are capturing a piece");
+						int dy = (theMove.moveLoc->row - pawn->pos->row)/2;
+						int dx = (theMove.moveLoc->col - pawn->pos->col)/2;
 						Position* between = new Position();
-						between->row = (theMove->moveLoc->row  - dy);
-						between->col = (theMove->moveLoc->col - dx);
+						between->row = (theMove.moveLoc->row  - dy);
+						between->col = (theMove.moveLoc->col - dx);
 						theBoard->takePawnAtPosition(between);
 					}
-					pawn->makeMove(theMove->moveLoc);
+
+					printf("WE ARE MOVING PAWN AT (%d,%d), TO (%d,%d) \n", theMove.pawnLoc->row,theMove.pawnLoc->col,theMove.moveLoc->row,theMove.moveLoc->col);
+					pawn->makeMove(theMove.moveLoc);
 				}
 
 
 			}
+			theBoard->displayBoard();
 			theBoard->printToFile("gameState.txt");
 			theBoard->printToFile("boards.txt");
 			turnBool = !turnBool;
 			gameFinished = theBoard->checkIsWin();
-
+			turnsPlayed++;
 			//read file
 			//find legal moves
 			//choose random legal move
@@ -142,22 +141,9 @@ bool Production::prod(int argc, char* argv[])
 			//update board (update pawn array
 			//output updated board
 
-
-
 		}
-
-
+		return answer;
 	}
-
-
-
-
-
-
-
-	return answer;
-
-}
 
 bool Production::readFile(char* filename, Board* theBoard)
 {
