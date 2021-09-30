@@ -78,38 +78,69 @@ bool Production::prod(int argc, char* argv[])
 				break;
 
 			}
+			puts("this is running");
 		}
 
+
 	}
+
+
 	//Prob need to make the game run here
 	Board* theBoard = new Board();
 	theBoard->initBoard();
+	theBoard->printToFile("gameState.txt");
+	theBoard->printToFile("boards.txt");
 	CheckerMove* gameCheck = new CheckerMove();
 
-
+	puts("this is running");
 	for(int j = 0; j < maxMoves; j++){
+		puts("this is running2");
 
-		bool gameFinished = theBoard->checkIsWin()
+		bool gameFinished = theBoard->checkIsWin();
 
 		while (!gameFinished){
+			puts("this is running3");
 
 			readFile("gameState", theBoard);
 			gameCheck->findAllLegalMoves(theBoard, turnBool);
-			turnBool = !turnBool;
 			int movesSize = (int)gameCheck->moves.size();
 			int move = rand() % movesSize;
+			for(int x = 0; x < move; x++)
+			{
+				gameCheck->moves.pop_front();
+			}
+			possibleMoveNode* theMove;
+			theMove->moveLoc = gameCheck->moves.front().moveLoc;
+			theMove->pawnLoc = gameCheck->moves.front().pawnLoc;
+			for(Pawn* pawn: theBoard->Pieces)
+			{
+				if(pawn->pos->col == theMove->pawnLoc->col && pawn->pos->row == theMove->pawnLoc->row  )
+				{
+					if(abs(theMove->moveLoc->col - pawn->pos->col)==2)
+					{
+						int dy = (theMove->moveLoc->row - pawn->pos->row)/2;
+						int dx = (theMove->moveLoc->col - pawn->pos->col)/2;
+						Position* between = new Position();
+						between->row = (theMove->moveLoc->row  - dy);
+						between->col = (theMove->moveLoc->col - dx);
+						theBoard->takePawnAtPosition(between);
+					}
+					pawn->makeMove(theMove->moveLoc);
+				}
 
 
-
-		}
-
+			}
+			theBoard->printToFile("gameState.txt");
+			theBoard->printToFile("boards.txt");
+			turnBool = !turnBool;
+			gameFinished = theBoard->checkIsWin();
 
 			//read file
-	//find legal moves
-	//choose random legal move
-	//make move
-	//update board (update pawn array
-	//output updated board
+			//find legal moves
+			//choose random legal move
+			//make move
+			//update board (update pawn array
+			//output updated board
 
 
 
@@ -188,11 +219,11 @@ bool Production::readFile(char* filename, Board* theBoard)
 
 		}
 		for(int x = pos; x<24; x++)
-				{
-					Pawn* faulty = new Pawn(true,-1,-1);
-					faulty->takePawn();
-					newBoard[x] = faulty;
-				}
+		{
+			Pawn* faulty = new Pawn(true,-1,-1);
+			faulty->takePawn();
+			newBoard[x] = faulty;
+		}
 
 		theBoard->initBoard(newBoard);
 
