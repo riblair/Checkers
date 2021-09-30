@@ -60,21 +60,20 @@ bool CheckerMove::isLegal(Board* board, Position* pawn, Position* possibleMove) 
 				{
 					if(pawns->color) //if black
 					{
-						if(pawns->pos->row > possibleMove->row)//if move is backwards
+						if(pawns->pos->row <= possibleMove->row)//if move is backwards
 						{
+
 							return false;
 						}
 					}
 					else //if red
 					{
-						if(pawns->pos->row < possibleMove->row)//if move is backwards
+						if(pawns->pos->row >= possibleMove->row)//if move is backwards
 						{
 							return false;
 						}
 					}
 				}
-				else
-				{
 					int distance = abs(pawns->pos->row - possibleMove->row);
 					if(distance == 1) //no pawn in the way, and the distance is one, return true
 					{
@@ -102,7 +101,7 @@ bool CheckerMove::isLegal(Board* board, Position* pawn, Position* possibleMove) 
 
 						}
 					}
-				}
+
 			}
 		}
 	}

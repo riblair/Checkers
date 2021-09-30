@@ -31,7 +31,8 @@ bool Tests::tests()
 	bool ok6 = testdisplayBoard();
 	bool ok7 = testprintToFile();
 	bool ok8 = testCheckIsWin();
-	answer = ok1 && ok2 && ok3  && ok4 && ok5 && ok6 && ok7 && ok8;
+	bool ok9 = testisLegal();
+	answer = ok1 && ok2 && ok3  && ok4 && ok5 && ok6 && ok7 && ok8 && ok9;
 	return answer;
 }
 
@@ -270,3 +271,85 @@ bool Tests::testCheckIsWin()
 	return ok;
 }
 
+bool Tests::testisLegal()
+{
+	bool ok = true;
+	Board* testLegal = new Board();
+	CheckerMove* check = new CheckerMove();
+	testLegal->initBoard();
+	Position* pawn1 = new Position();
+	pawn1->row = 2;
+	pawn1->col = 1;
+	Position* move1 = new Position();
+	move1->row = 3;
+	move1->col = 2;
+	if(!check->isLegal(testLegal, pawn1, move1))
+	{
+		ok = false;
+	}
+	move1->col = 0;
+	if(!check->isLegal(testLegal, pawn1, move1))
+	{
+		ok = false;
+	}
+	if(check->isLegal(testLegal, pawn1, pawn1))
+	{
+		ok = false;
+	}
+	Position* pawn2 = new Position();
+	Position* move2 = new Position();
+	pawn2->row = 5;
+	pawn2->col = 6;
+	move2->row = 4;
+	move2->col = 7;
+	if(!check->isLegal(testLegal, pawn2, move2))
+	{
+		ok = false;
+	}
+	move2->col = 5;
+	if(!check->isLegal(testLegal, pawn2, move2))
+	{
+		ok = false;
+	}
+	if(check->isLegal(testLegal, pawn2, pawn2))
+	{
+		ok = false;
+	}
+	Production* pP = new Production();
+	pP->readFile("gameState.txt",testLegal);
+	pawn2->row = 3;
+	pawn2->col = 2;
+	move2->row = 1;
+	move2->col = 0;
+	if(!check->isLegal(testLegal, pawn2, move2))
+	{
+		ok = false;
+	}
+	move2->row = 1;
+	move2->col = 4;
+	if(!check->isLegal(testLegal, pawn2, move2))
+	{
+		ok = false;
+	}
+	move2->row = 5;
+	move2->col = 0;
+	if(!check->isLegal(testLegal, pawn2, move2))
+	{
+		ok = false;
+	}
+	move2->row = 5;
+	move2->col = 4;
+	if(!check->isLegal(testLegal, pawn2, move2))
+	{
+		ok = false;
+	}
+	if(ok)
+	{
+		puts("testisLegal did pass");
+	}
+	else
+	{
+		puts("testisLegal did not pass.");
+	}
+	return ok;
+}

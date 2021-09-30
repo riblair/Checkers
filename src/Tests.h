@@ -26,7 +26,7 @@ private:
 	bool testdisplayBoard();
 	bool testprintToFile();
 	bool testCheckIsWin();
-
+	bool testisLegal();
 };
 
 #endif /* TESTS_H_ */

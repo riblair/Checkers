@@ -13,6 +13,7 @@
 #include <stdlib.h>//strtol
 #include "Board.h"
 #include "Pawn.h"
+#include "CheckerMove.h"
 
 #define FILENAMELENGTHALLOWANCE 50
 
