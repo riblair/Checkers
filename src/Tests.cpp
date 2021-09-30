@@ -316,7 +316,7 @@ bool Tests::testisLegal()
 		ok = false;
 	}
 	Production* pP = new Production();
-	pP->readFile("gameState.txt",testLegal);
+	pP->readFile("gameStateTest.txt",testLegal);
 	pawn2->row = 3;
 	pawn2->col = 2;
 	move2->row = 1;
