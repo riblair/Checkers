@@ -7,6 +7,7 @@
 
 #include "Board.h"
 #include "Pawn.h"
+#include "CheckerMove.h"
 #include <stdio.h>
 #include <stdbool.h>
 #include <cstring>
@@ -195,7 +196,7 @@ void Board::initBoard(Pawn* pawnArray[]){
 }
 
 
-bool Board::checkIsWin(){ // needs to check if either team has no legal moves
+bool Board::checkIsWin(CheckerMove* moveToCheck, bool side){ // needs to check if either team has no legal moves
 
 	bool winState = false;
 	///*
@@ -215,12 +216,27 @@ bool Board::checkIsWin(){ // needs to check if either team has no legal moves
 		if (redTally == 0){
 			//all reds have been taken, black wins
 			puts("Black Won!");
+			fflush(stdout);
 			winState = true;
 		}
 		if (blackTally == 0){
 			puts("Red Won!");
+			fflush(stdout);
 			winState = true;
 		}//*/
+
+		if (moveToCheck->moves.size == 0){
+			if(side){
+				puts("Black Ran Out Of Moves\nRed Wins!");
+				fflush(stdout);
+			}
+			else{
+				puts("Red Ran Out Of Moves\nBlack Wins!");
+				fflush(stdout);
+			}
+
+
+		}
 
 	return winState;
 

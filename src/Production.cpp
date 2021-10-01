@@ -96,7 +96,7 @@ bool Production::prod(int argc, char* argv[])
 	CheckerMove* gameCheck = new CheckerMove();
 
 	int turnsPlayed = 0;
-	bool gameFinished = theBoard->checkIsWin();
+	bool gameFinished = theBoard->checkIsWin(gameCheck, turnBool);
 
 		while (turnsPlayed < maxMoves && !gameFinished){
 			readFile("gameState.txt", theBoard);
@@ -139,10 +139,11 @@ bool Production::prod(int argc, char* argv[])
 
 			}
 			theBoard->displayBoard();
+			gameFinished = theBoard->checkIsWin(gameCheck, turnBool);
 			theBoard->printToFile("gameState.txt");
 			theBoard->printToFile("boards.txt");
+
 			turnBool = !turnBool;
-			gameFinished = theBoard->checkIsWin();
 			turnsPlayed++;
 		}
 		return answer;

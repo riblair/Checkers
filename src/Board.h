@@ -7,10 +7,11 @@
 
 #ifndef BOARD_H_
 #define BOARD_H_
-#include "Board.h"
 #include "Pawn.h"
+//#include "CheckerMove.h"
 #include <stdio.h>
 #include <stdbool.h>
+
 
 #define BOARD_SIZE 8
 
@@ -25,7 +26,7 @@ public:
 	void initBoard();
 	void initBoard(Pawn* pawnArray[]);
 	Pawn* Pieces[24];
-	bool checkIsWin();
+	bool checkIsWin(CheckerMove* moveToCheck, bool side);
 	void takePawnAtPosition(Position* pos);
 
 

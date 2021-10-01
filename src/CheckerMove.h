@@ -24,6 +24,7 @@ public:
 	void findAllLegalMoves(Board* board, bool side); //true = black move, false = red move.
 	std::list<possibleMoveNode> moves;
 	void printMoves();
+
 };
 
 

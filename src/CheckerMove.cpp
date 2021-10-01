@@ -168,6 +168,7 @@ void CheckerMove::findAllLegalMoves(Board* board, bool side) {
 	}
 }
 
+
 void CheckerMove::printMoves()
 {
 	for(possibleMoveNode theMove : moves) {
