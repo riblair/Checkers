@@ -1,0 +1,5055 @@
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+-r-r-r-r
+--------
+--------
+b-b-b-b-
+-b-b-b-b
+b-b-b-b-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (5,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+-r-r-r-r
+--------
+-------b
+b-b-b---
+-b-b-b-b
+b-b-b-b-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (2,1), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+---r-r-r
+--r-----
+-------b
+b-b-b---
+-b-b-b-b
+b-b-b-b-
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+---r-r-r
+--r-----
+-------b
+b-b-b-b-
+-b-b---b
+b-b-b-b-
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (2,5), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+---r---r
+--r---r-
+-------b
+b-b-b-b-
+-b-b---b
+b-b-b-b-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+---r---r
+--r---r-
+-------b
+b-b-b-b-
+-b-b-b-b
+b-b-b---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (2,3), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+-------r
+--r-r-r-
+-------b
+b-b-b-b-
+-b-b-b-b
+b-b-b---
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (5,4), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+-------r
+--r-r-r-
+-----b-b
+b-b---b-
+-b-b-b-b
+b-b-b---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (3,4), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+-------r
+--r---r-
+---r-b-b
+b-b---b-
+-b-b-b-b
+b-b-b---
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (6,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+-------r
+--r---r-
+---r-b-b
+b-b-b-b-
+-b---b-b
+b-b-b---
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (3,2), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+-------r
+------r-
+-r-r-b-b
+b-b-b-b-
+-b---b-b
+b-b-b---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,7), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-r-r-r-
+-----b-r
+--------
+-r-r-b--
+b-b-b-b-
+-b---b-b
+b-b-b---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,2), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r---r-r-
+-r---b-r
+--------
+-r-r-b--
+b-b-b-b-
+-b---b-b
+b-b-b---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (7,2), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r---r-r-
+-r---b-r
+--------
+-r-r-b--
+b-b-b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,4), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-----r-
+-r-----r
+------r-
+-r-r-b--
+b-b-b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,0), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+-r-r-r-r
+r-----r-
+-r-----r
+--b---r-
+---r-b--
+--b-b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (0,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+r-r---r-
+-r-----r
+--b---r-
+---r-b--
+--b-b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,5), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+r-r---r-
+-r-----r
+--b-b-r-
+---r----
+--b-b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (1,6), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+r-r-----
+-r---r-r
+--b-b-r-
+---r----
+--b-b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,2), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+r-r-----
+-r---r-r
+--b-b-r-
+-b-r----
+----b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (2,1), TO (3,0) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+r-r-----
+-----r-r
+r-b-b-r-
+-b-r----
+----b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (3,2), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+r-r-----
+---b-r-r
+r---b-r-
+-b-r----
+----b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (3,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+r-r-----
+---b-r-r
+r---b---
+-b-r-r--
+----b-b-
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (5,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+r-r-----
+---b-r-r
+r---b---
+-b-r-r-b
+----b---
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (1,0), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+--r-----
+-r-b-r-r
+r---b---
+-b-r-r-b
+----b---
+-b-b-b-b
+b---b---
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (6,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+-r---r-r
+--r-----
+-r-b-r-r
+r---b---
+-b-r-r-b
+b---b---
+---b-b-b
+b---b---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+-r-b-r-r
+r---b---
+-b-r-r-b
+b---b---
+---b-b-b
+b---b---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+-r-b-r-r
+r---b---
+-b-r-r-b
+b---b-b-
+---b---b
+b---b---
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (4,3), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+-r-b-r-r
+r---b---
+-b---r-b
+b-r-b-b-
+---b---b
+b---b---
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+-r-b-r-r
+r---b---
+-b---r-b
+b-r-b-b-
+---b-b-b
+b-------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (2,1), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+---b-r-r
+r-r-b---
+-b---r-b
+b-r-b-b-
+---b-b-b
+b-------
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (5,4), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+---b-r-r
+r-r-b---
+-b-b-r-b
+b-r---b-
+---b-b-b
+b-------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+---b-r-r
+r-r-b---
+-b-b-r-b
+b-----b-
+-r-b-b-b
+b-------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (4,3), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+-b-b-r-r
+r---b---
+-b---r-b
+b-----b-
+-r-b-b-b
+b-------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (2,5), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+-b-b---r
+r---b-r-
+-b---r-b
+b-----b-
+-r-b-b-b
+b-------
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (7,0), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---r-
+-b-b---r
+r---b-r-
+-b---r-b
+b-b---b-
+---b-b-b
+--------
+
+the number of legal moves this turn is 3
+WE ARE MOVING PAWN AT (1,6), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r-----
+-b-b-r-r
+r---b-r-
+-b---r-b
+b-b---b-
+---b-b-b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (3,4), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---b-
+-b-b---r
+r-----r-
+-b---r-b
+b-b---b-
+---b-b-b
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,5), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---b-
+-b-b---r
+r-----r-
+-b-----b
+b-b-r-b-
+---b-b-b
+--------
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (4,7), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---b-
+-b-b-b-r
+r-------
+-b------
+b-b-r-b-
+---b-b-b
+--------
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (5,4), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r---b-
+-b-b-b-r
+r-------
+-b------
+b-b---b-
+---b---b
+------R-
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (2,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r-b-b-
+-b---b-r
+r-------
+-b------
+b-b---b-
+---b---b
+------R-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-----r
+--r-b-b-
+-b---b-r
+r-------
+-b------
+b-b---b-
+---b-R-b
+--------
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (1,6), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r---B-r
+--r-b---
+-b---b-r
+r-------
+-b------
+b-b---b-
+---b-R-b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (6,5), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+-r---B-r
+--r-b---
+-b---b-r
+r-------
+-b------
+b-b---b-
+---b---b
+----R---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (2,1), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+-r-B-B-r
+----b---
+-----b-r
+r-------
+-b------
+b-b---b-
+---b---b
+----R---
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-B-B-r
+----b---
+-----b-r
+r-------
+-b------
+b-b---b-
+---b-R-b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+-r-B-B-r
+----b---
+-----b-r
+r-------
+-b---b--
+b-b-----
+---b-R-b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-B-B-r
+----b---
+-----b-r
+r-------
+-b---b--
+b-b---R-
+---b---b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,5), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+-r-B-B-r
+----b---
+-----b-r
+r-----b-
+-b------
+b-b---R-
+---b---b
+--------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (0,1), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--r-b---
+-----b-r
+r-----b-
+-b------
+b-b---R-
+---b---b
+--------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (5,2), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--r-b---
+-----b-r
+r-----b-
+-b-b----
+b-----R-
+---b---b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (3,0), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--r-b---
+-----b-r
+------b-
+---b----
+b-r---R-
+---b---b
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+--r-b-B-
+-----b-r
+------b-
+---b----
+b-r---R-
+---b---b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+--r-b-B-
+-----b-r
+------b-
+---b-R--
+b-r-----
+---b---b
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (4,3), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+--r-b-B-
+-----b-r
+--b---b-
+-----R--
+b-r-----
+---b---b
+--------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (1,2), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+----b-B-
+-r---b-r
+--b---b-
+-----R--
+b-r-----
+---b---b
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (1,6), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-r---b-r
+--b---b-
+-----R--
+b-r-----
+---b---b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-r---b-r
+--b---b-
+--------
+b-r---R-
+---b---b
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (6,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-r---b-r
+--b---b-
+--------
+b-r-b-R-
+-------b
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (5,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-r---b-r
+--b---b-
+--------
+b---b-R-
+-r-----b
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (3,2), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-r-b-b-r
+------b-
+--------
+b---b-R-
+-r-----b
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (2,1), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+---b-b-r
+--r---b-
+--------
+b---b-R-
+-r-----b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,4), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+---b-b-r
+--r---b-
+-----b--
+b-----R-
+-r-----b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (3,2), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+---b-b-r
+------b-
+---r-b--
+b-----R-
+-r-----b
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (0,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b---
+---b-b-r
+------b-
+---r-b--
+b-----R-
+-r-----b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b---
+---b-b-r
+------b-
+-----b--
+b---r-R-
+-r-----b
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+-------r
+--B-b-B-
+---b-b-r
+------b-
+-----b--
+b---r-R-
+-r-----b
+--------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (5,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-------r
+--B-b-B-
+---b-b-r
+------b-
+-----b--
+b---r---
+-r---R-b
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (1,4), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B---B-
+---b-b-r
+------b-
+-----b--
+b---r---
+-r---R-b
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B---B-
+---b-b-r
+------b-
+-----b--
+b---r---
+-r-----b
+------R-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (2,5), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b---r
+------b-
+-----b--
+b---r---
+-r-----b
+------R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,1), TO (7,0) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b---r
+------b-
+-----b--
+b---r---
+-------b
+R-----R-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (3,6), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b-b-r
+--------
+-----b--
+b---r---
+-------b
+R-----R-
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b-b-r
+--------
+-----b--
+b---r---
+-----R-b
+R-------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,2), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+---b-b-r
+--------
+-----b--
+b---r---
+-----R-b
+R-------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+---b-b-r
+--------
+-----b--
+b---r---
+-------b
+R---R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (0,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b-b-r
+--------
+-----b--
+b---r---
+-------b
+R---R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (7,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b-b-r
+--------
+-----b--
+b---r---
+-R-----b
+----R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,2), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+----b-B-
+-B-b-b-r
+--------
+-----b--
+b---r---
+-R-----b
+----R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (6,1), TO (7,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+----b-B-
+-B-b-b-r
+--------
+-----b--
+b---r---
+-------b
+--R-R---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (6,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+----b-B-
+-B-b-b-r
+--------
+-----b--
+b---r-b-
+--------
+--R-R---
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (5,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+----b-B-
+-B-b-b-r
+--------
+-----b--
+b-----b-
+-----r--
+--R-R---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (2,1), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b-b-r
+--------
+-----b--
+b-----b-
+-----r--
+--R-R---
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (7,4), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b-b-r
+--------
+-----b--
+b-----b-
+---R-r--
+--R-----
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,5), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b-b-r
+----b---
+--------
+b-----b-
+---R-r--
+--R-----
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (6,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-r
+--B-b-B-
+---b-b-r
+----b---
+--------
+b---R-b-
+-----r--
+--R-----
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (1,4), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B---B-
+---b-b-r
+----b---
+--------
+b---R-b-
+-----r--
+--R-----
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (2,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B---B-
+---b-b--
+----b-r-
+--------
+b---R-b-
+-----r--
+--R-----
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (0,5), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+--B-B-B-
+---b-b--
+----b-r-
+--------
+b---R-b-
+-----r--
+--R-----
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (3,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+--B-B-B-
+---b-b--
+----b---
+-------r
+b---R-b-
+-----r--
+--R-----
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (1,6), TO (2,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+--B-B---
+---b-b-B
+----b---
+-------r
+b---R-b-
+-----r--
+--R-----
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (7,2), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+--B-B---
+---b-b-B
+----b---
+-------r
+b---R-b-
+---R-r--
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,4), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-----
+---b-b-B
+----b---
+-------r
+b---R-b-
+---R-r--
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (6,3), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-----
+---b-b-B
+----b---
+-------r
+b-R-R-b-
+-----r--
+--------
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (2,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-b---
+-----b-B
+----b---
+-------r
+b-R-R-b-
+-----r--
+--------
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (6,5), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-b---
+-----b-B
+----b---
+-------r
+b-R-R-b-
+--------
+----R---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (5,0), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-b---
+-----b-B
+----b---
+-b-----r
+--R-R-b-
+--------
+----R---
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (5,4), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-b---
+-----b-B
+----b---
+-b-R---r
+--R---b-
+--------
+----R---
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (2,7), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-b-B-
+-----b--
+----b---
+-b-R---r
+--R---b-
+--------
+----R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,2), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-b-B-
+-----b--
+----b---
+-b-R---r
+------b-
+---R----
+----R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,2), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-B---b--
+----b---
+-b-R---r
+------b-
+---R----
+----R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,7), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-B---b--
+----b---
+-b-R----
+--------
+---R-r--
+----R---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (2,1), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-----b--
+--B-b---
+-b-R----
+--------
+---R-r--
+----R---
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (6,5), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-----b--
+--B-b---
+-b-R----
+--------
+---R----
+----R-R-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (3,2), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+---B-b--
+----b---
+-b-R----
+--------
+---R----
+----R-R-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (6,3), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+---B-b--
+----b---
+-b-R----
+--R-----
+--------
+----R-R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (2,3), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-----b--
+--B-b---
+-b-R----
+--R-----
+--------
+----R-R-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (5,2), TO (3,0) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-----b--
+R-B-b---
+---R----
+--------
+--------
+----R-R-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (3,2), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-----b--
+R---b---
+--------
+----B---
+--------
+----R-R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (3,0), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-----b--
+----b---
+-R------
+----B---
+--------
+----R-R-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (3,4), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+---b-b--
+--------
+-R------
+----B---
+--------
+----R-R-
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+---b-b--
+--------
+--------
+R---B---
+--------
+----R-R-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (2,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--b-b-B-
+-----b--
+--------
+--------
+R---B---
+--------
+----R-R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--b-b-B-
+-----b--
+--------
+--------
+R---B---
+-----R--
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (1,2), TO (0,1) 
+ 
+- - - - - - - - - - - - - - -  
+-B-B-B-r
+----b-B-
+-----b--
+--------
+--------
+R---B---
+-----R--
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+-B-B-B-r
+----b-B-
+-----b--
+--------
+--------
+R---B---
+--------
+----R-R-
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (0,1), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-b-B-
+-----b--
+--------
+--------
+R---B---
+--------
+----R-R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+--B-b-B-
+-----b--
+--------
+--------
+R---B---
+-----R--
+------R-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (1,2), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-B---b--
+--------
+--------
+R---B---
+-----R--
+------R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b-B-
+-B---b--
+--------
+--------
+----B---
+-R---R--
+------R-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (1,6), TO (2,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b-B
+--------
+--------
+----B---
+-R---R--
+------R-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (6,5), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b-B
+--------
+--------
+----B---
+-R------
+----R-R-
+
+the number of legal moves this turn is 13
+WE ARE MOVING PAWN AT (5,4), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b-B
+--------
+---B----
+--------
+-R------
+----R-R-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b-B
+--------
+---B----
+--------
+-R---R--
+------R-
+
+the number of legal moves this turn is 13
+WE ARE MOVING PAWN AT (2,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b--
+------B-
+---B----
+--------
+-R---R--
+------R-
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (7,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b--
+------B-
+---B----
+--------
+-R---R-R
+--------
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (3,6), TO (2,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b-B
+--------
+---B----
+--------
+-R---R-R
+--------
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (6,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b-B
+--------
+---B----
+------R-
+-R---R--
+--------
+
+the number of legal moves this turn is 13
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+----b-B-
+-B---b-B
+--------
+---B----
+------R-
+-R---R--
+--------
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (5,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B---r
+----b-B-
+-B---b-B
+--------
+---B---R
+--------
+-R---R--
+--------
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (1,6), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b-B
+--------
+---B---R
+--------
+-R---R--
+--------
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (6,1), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+----b---
+-B---b-B
+--------
+---B---R
+--R-----
+-----R--
+--------
+
+the number of legal moves this turn is 13
+WE ARE MOVING PAWN AT (2,1), TO (1,0) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+B---b---
+-----b-B
+--------
+---B---R
+--R-----
+-----R--
+--------
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+B---b---
+-----b-B
+--------
+---B---R
+--R---R-
+--------
+--------
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (4,3), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-r
+B---b---
+-----b-B
+--------
+-------R
+------R-
+-B------
+--------
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (0,7), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+B---b-r-
+-----b-B
+--------
+-------R
+------R-
+-B------
+--------
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (2,5), TO (0,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-B
+B---b---
+-------B
+--------
+-------R
+------R-
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-B
+B---b---
+-------B
+--------
+-------R
+--------
+-B-----R
+--------
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (0,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B-B-b---
+-------B
+--------
+-------R
+--------
+-B-----R
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B-B-b---
+-------B
+--------
+--------
+------R-
+-B-----R
+--------
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (1,2), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-B
+B---b---
+-------B
+--------
+--------
+------R-
+-B-----R
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,7), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-B
+B---b---
+-------B
+--------
+--------
+------R-
+-B------
+------R-
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (0,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B-B-b---
+-------B
+--------
+--------
+------R-
+-B------
+------R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B-B-b---
+-------B
+--------
+-------R
+--------
+-B------
+------R-
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (1,2), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B---b---
+-B-----B
+--------
+-------R
+--------
+-B------
+------R-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B---b---
+-B-----B
+--------
+--------
+------R-
+-B------
+------R-
+
+the number of legal moves this turn is 13
+WE ARE MOVING PAWN AT (2,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B---b---
+-B------
+------B-
+--------
+------R-
+-B------
+------R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B---b---
+-B------
+------B-
+--------
+--------
+-B-----R
+------R-
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (6,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B---b---
+-B------
+------B-
+--------
+B-------
+-------R
+------R-
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (6,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+B---b---
+-B------
+------B-
+--------
+B-----R-
+--------
+------R-
+
+the number of legal moves this turn is 13
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+B---b-B-
+-B------
+------B-
+--------
+B-----R-
+--------
+------R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+B---b-B-
+-B------
+------B-
+--------
+B-----R-
+-----R--
+--------
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (3,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+B---b-B-
+-B------
+--------
+-------B
+B-----R-
+-----R--
+--------
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (5,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+B---b-B-
+-B------
+--------
+-----R-B
+B-------
+-----R--
+--------
+
+the number of legal moves this turn is 13
+WE ARE MOVING PAWN AT (2,1), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+B---b-B-
+--------
+--B-----
+-----R-B
+B-------
+-----R--
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,5), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+B---b-B-
+--------
+--B-R---
+-------B
+B-------
+-----R--
+--------
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (1,0), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+----b-B-
+-B------
+--B-R---
+-------B
+B-------
+-----R--
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+----b-B-
+-B------
+--B-R---
+-------B
+B-----R-
+--------
+--------
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (4,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+----b-B-
+-B------
+--B-R-B-
+--------
+B-----R-
+--------
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+----b-B-
+-B------
+--B-R-B-
+-------R
+B-------
+--------
+--------
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (1,6), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+----b---
+-B------
+--B-R-B-
+-------R
+B-------
+--------
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+----b---
+-B------
+--B-R-B-
+--------
+B-----R-
+--------
+--------
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (3,6), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+----b---
+-B---B--
+--B-R---
+--------
+B-----R-
+--------
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (3,4), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+-----B-B
+----b---
+-B---B--
+--B-----
+---R----
+B-----R-
+--------
+--------
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (1,4), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-B
+--------
+-B---B--
+--B-----
+---R----
+B-----R-
+--------
+--------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (4,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B-B
+--------
+-B---B--
+--B-----
+--------
+B---R-R-
+--------
+--------
+
+the number of legal moves this turn is 17
+WE ARE MOVING PAWN AT (0,7), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+------B-
+-B---B--
+--B-----
+--------
+B---R-R-
+--------
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,4), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+------B-
+-B---B--
+--B-----
+--------
+B-----R-
+---R----
+--------
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (0,5), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B----
+----B-B-
+-B---B--
+--B-----
+--------
+B-----R-
+---R----
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (6,3), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B----
+----B-B-
+-B---B--
+--B-----
+--------
+B-----R-
+--------
+----R---
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (1,6), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+-B---B--
+--B-----
+--------
+B-----R-
+--------
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+-B---B--
+--B-----
+--------
+B-------
+-------R
+----R---
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (2,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B-B-
+-B------
+--B-----
+--------
+B-------
+-------R
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B-B-
+-B------
+--B-----
+--------
+B-----R-
+--------
+----R---
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (1,6), TO (2,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+-B-----B
+--B-----
+--------
+B-----R-
+--------
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+-B-----B
+--B-----
+-------R
+B-------
+--------
+----R---
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (2,1), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--B-----
+-------R
+B-------
+--------
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--B-----
+-------R
+B-------
+-----R--
+--------
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (5,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--B-----
+-------R
+--------
+-B---R--
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--B-----
+-------R
+--------
+-B------
+------R-
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (3,2), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--------
+-B-----R
+--------
+-B------
+------R-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--------
+-B-----R
+--------
+-B---R--
+--------
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (1,4), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+-----B-B
+--------
+-B-----R
+--------
+-B---R--
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+-----B-B
+--------
+-B------
+------R-
+-B---R--
+--------
+
+the number of legal moves this turn is 20
+WE ARE MOVING PAWN AT (6,1), TO (7,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+-----B-B
+--------
+-B------
+------R-
+-----R--
+--B-----
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+-----B-B
+--------
+-B-----R
+--------
+-----R--
+--B-----
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (2,5), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--------
+-B-----R
+--------
+-----R--
+--B-----
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--------
+-B-----R
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (4,1), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--B-----
+-------R
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,4), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-B---
+-------B
+--B-----
+-----R-R
+--------
+--------
+--B-----
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (1,4), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+---B---B
+--B-----
+-----R-R
+--------
+--------
+--B-----
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,5), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+---B---B
+--B-----
+-------R
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (2,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+---B----
+--B---B-
+-------R
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+---B----
+--B---B-
+--------
+----R-R-
+--------
+--B-----
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (7,2), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+---B----
+--B---B-
+--------
+----R-R-
+---B----
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--B-----
+---B----
+--B---B-
+--------
+----R---
+---B-R--
+--------
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (0,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+--B---B-
+--------
+----R---
+---B-R--
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+--B---B-
+--------
+----R-R-
+---B----
+--------
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (3,2), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-B-B----
+------B-
+--------
+----R-R-
+---B----
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-B-B----
+------B-
+--------
+------R-
+---B-R--
+--------
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (6,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-B-B----
+------B-
+--------
+----B-R-
+-----R--
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-B-B----
+------B-
+-------R
+----B---
+-----R--
+--------
+
+the number of legal moves this turn is 17
+WE ARE MOVING PAWN AT (5,4), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-B-B----
+------B-
+-------R
+--------
+---B-R--
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-B-B----
+------B-
+-------R
+--------
+---B----
+----R---
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (2,3), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-B------
+--B---B-
+-------R
+--------
+---B----
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-B------
+--B---B-
+--------
+------R-
+---B----
+----R---
+
+the number of legal moves this turn is 19
+WE ARE MOVING PAWN AT (2,1), TO (3,0) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+--------
+B-B---B-
+--------
+------R-
+---B----
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+--------
+B-B---B-
+--------
+--------
+---B---R
+----R---
+
+the number of legal moves this turn is 21
+WE ARE MOVING PAWN AT (3,2), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-----B-
+--------
+--------
+---B---R
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-----B-
+--------
+--------
+---B-R-R
+--------
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (6,3), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-----B-
+--------
+--B-----
+-----R-R
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-----B-
+--------
+--B---R-
+-----R--
+--------
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (3,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-------
+-------B
+--B---R-
+-----R--
+--------
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (6,5), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-------
+-------B
+--B---R-
+--------
+------R-
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (5,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-------
+-------B
+------R-
+-B------
+------R-
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (5,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-------
+-------B
+--------
+-B-----R
+------R-
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-------
+--------
+------B-
+-B-----R
+------R-
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-------
+--------
+------B-
+-B---R-R
+--------
+
+the number of legal moves this turn is 17
+WE ARE MOVING PAWN AT (6,1), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-------
+--------
+--B---B-
+-----R-R
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+B-------
+-------R
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (1,2), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+---B----
+B-------
+-------R
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,7), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+---B----
+B-------
+-------R
+--B-----
+--------
+------R-
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (5,2), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+---B----
+B-------
+-------R
+--------
+---B----
+------R-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+---B----
+B-------
+-------R
+--------
+---B---R
+--------
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (6,3), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+---B----
+B-------
+-------R
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+---B----
+B-----R-
+--------
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (3,0), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+---B----
+------R-
+-B------
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (3,6), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+----B---
+---B-R--
+--------
+-B------
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (0,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B-R--
+--------
+-B------
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (2,5), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+---B----
+------R-
+-B------
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--B-B-B-
+---B----
+------R-
+-B------
+--B-----
+-------R
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,7), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--B-B-B-
+---B----
+------R-
+-B------
+--B-----
+--------
+------R-
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (1,4), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B---B-
+---B----
+------R-
+-B------
+--B-----
+--------
+------R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (3,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B---B-
+---B----
+--------
+-B-----R
+--B-----
+--------
+------R-
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (2,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B-B-
+--------
+--------
+-B-----R
+--B-----
+--------
+------R-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B-B-
+--------
+--------
+-B------
+--B---R-
+--------
+------R-
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (1,6), TO (2,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-------B
+--------
+-B------
+--B---R-
+--------
+------R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-------B
+--------
+-B---R--
+--B-----
+--------
+------R-
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (4,1), TO (3,0) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-------B
+B-------
+-----R--
+--B-----
+--------
+------R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-B---
+-------B
+B-------
+-----R--
+--B-----
+-----R--
+--------
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (1,4), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-----
+---B---B
+B-------
+-----R--
+--B-----
+-----R--
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,5), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-----
+---B---B
+B-----R-
+--------
+--B-----
+-----R--
+--------
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (5,2), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-----
+---B---B
+B-----R-
+--------
+--------
+---B-R--
+--------
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (6,5), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-----
+---B---B
+B-----R-
+--------
+--------
+---B----
+------R-
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (2,3), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-----
+-------B
+B---B-R-
+--------
+--------
+---B----
+------R-
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (3,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-----
+-------B
+B---B---
+-----R--
+--------
+---B----
+------R-
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (6,3), TO (7,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-----
+-------B
+B---B---
+-----R--
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--B-----
+-------B
+B---B---
+-----R--
+--------
+-----R--
+--B-----
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (1,2), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--------
+---B---B
+B---B---
+-----R--
+--------
+-----R--
+--B-----
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (6,5), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--------
+---B---B
+B---B---
+-----R--
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (2,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+----B---
+-------B
+B---B---
+-----R--
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,5), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+----B---
+---R---B
+B-------
+--------
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (1,4), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--------
+---R---B
+B-------
+--------
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,4), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--------
+---R---B
+B-------
+-----R--
+--------
+--------
+--B-----
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (7,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--------
+---R---B
+B-------
+-----R--
+--------
+-B------
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (4,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--------
+---R---B
+B-------
+--------
+------R-
+-B------
+--------
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (6,1), TO (7,2) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--------
+---R---B
+B-------
+--------
+------R-
+--------
+--B-----
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--------
+---R---B
+B-------
+--------
+--------
+-------R
+--B-----
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (2,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--------
+---R----
+B-----B-
+--------
+--------
+-------R
+--B-----
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,7), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+---B-B--
+--------
+---R----
+B-----B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (0,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+----B---
+---R----
+B-----B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (2,3), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+----B---
+--------
+B---R-B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----B-B-
+--------
+B---R-B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (3,4), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----B-B-
+---R----
+B-----B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 16
+WE ARE MOVING PAWN AT (3,0), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----B-B-
+-B-R----
+------B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (2,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--R-B-B-
+-B------
+------B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 18
+WE ARE MOVING PAWN AT (2,1), TO (1,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B-R-B-B-
+--------
+------B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (1,2), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+---R----
+B---B-B-
+--------
+------B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (1,0), TO (0,1) 
+ 
+- - - - - - - - - - - - - - -  
+-B-R----
+----B-B-
+--------
+------B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+-B-R----
+----B-B-
+--------
+------B-
+--------
+--------
+-------R
+--B-----
+
+the number of legal moves this turn is 15
+WE ARE MOVING PAWN AT (1,4), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+-B-R----
+------B-
+---B----
+------B-
+--------
+--------
+-------R
+--B-----
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (0,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-B------
+--R---B-
+---B----
+------B-
+--------
+--------
+-------R
+--B-----
+
+the number of legal moves this turn is 14
+WE ARE MOVING PAWN AT (1,6), TO (0,7) 
+ 
+- - - - - - - - - - - - - - -  
+-B-----B
+--R-----
+---B----
+------B-
+--------
+--------
+-------R
+--B-----
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (6,7), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+-B-----B
+--R-----
+---B----
+------B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (2,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+-B-----B
+--R-B---
+--------
+------B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (1,2), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+-B-R---B
+----B---
+--------
+------B-
+--------
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (3,6), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+-B-R---B
+----B---
+--------
+--------
+-------B
+--------
+--------
+--B---R-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+-B-R---B
+----B---
+--------
+--------
+-------B
+--------
+-----R--
+--B-----
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (1,4), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+-B-R---B
+--------
+---B----
+--------
+-------B
+--------
+-----R--
+--B-----
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (0,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+-B-----B
+----R---
+---B----
+--------
+-------B
+--------
+-----R--
+--B-----
+
+the number of legal moves this turn is 11
+WE ARE MOVING PAWN AT (4,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+-B-----B
+----R---
+---B----
+--------
+--------
+------B-
+-----R--
+--B-----
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,4), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+-B-----B
+--------
+--------
+--R-----
+--------
+------B-
+-----R--
+--B-----
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (0,1), TO (1,0) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+B-------
+--------
+--R-----
+--------
+------B-
+-----R--
+--B-----
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (6,5), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+-------B
+B-------
+--------
+--R-----
+--------
+------B-
+--------
+--B-R---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (0,7), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B-----B-
+--------
+--R-----
+--------
+------B-
+--------
+--B-R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (3,2), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B-----B-
+--------
+--------
+-R------
+------B-
+--------
+--B-R---
+
+the number of legal moves this turn is 12
+WE ARE MOVING PAWN AT (7,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B-----B-
+--------
+--------
+-R------
+------B-
+-B------
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B-----B-
+--------
+--------
+--------
+R-----B-
+-B------
+----R---
+
+the number of legal moves this turn is 13
+WE ARE MOVING PAWN AT (1,6), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+B-------
+--------
+--------
+--------
+R-----B-
+-B------
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,0), TO (7,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+B-------
+--------
+--------
+--------
+------B-
+--------
+--R-R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (0,5), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+--------
+------B-
+--------
+--R-R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,4), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+--------
+------B-
+---R----
+--R-----
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (5,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+--------
+--------
+---R-B--
+--R-----
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,3), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+--------
+--------
+-----B--
+--R-R---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (1,4), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B-------
+-----B--
+--------
+--------
+--------
+-----B--
+--R-R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B-------
+-----B--
+--------
+--------
+--------
+-R---B--
+----R---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (2,5), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+--------
+--------
+-R---B--
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+--------
+R-------
+-----B--
+----R---
+
+the number of legal moves this turn is 9
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+--------
+R-----B-
+--------
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,0), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+-R------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (5,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--------
+-R---B--
+--------
+--------
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,1), TO (3,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--R-----
+-----B--
+--------
+--------
+----R---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (4,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+--------
+--R-----
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (3,2), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+B---B---
+-R------
+--------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 10
+WE ARE MOVING PAWN AT (1,4), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+B-------
+-R------
+--------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (2,1), TO (3,0) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+B-------
+--------
+R-------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,0), TO (2,1) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--------
+-B------
+R-------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (3,0), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+-----B--
+--R-----
+--------
+--------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--R---B-
+--------
+--------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (1,2), TO (2,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+------B-
+---R----
+--------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,6), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+---R-B--
+--------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (2,3), TO (1,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--R-----
+-----B--
+--------
+--------
+------B-
+--------
+----R---
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--R-----
+-----B--
+--------
+--------
+--------
+-------B
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (1,2), TO (0,3) 
+ 
+- - - - - - - - - - - - - - -  
+---R----
+--------
+-----B--
+--------
+--------
+--------
+-------B
+----R---
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,7), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+---R----
+--------
+-----B--
+--------
+--------
+--------
+--------
+----R-B-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+---R----
+--------
+-----B--
+--------
+--------
+--------
+-----R--
+------B-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (2,5), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+---R----
+--------
+--------
+----B---
+--------
+--------
+-----R--
+------B-
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (0,3), TO (1,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----R---
+--------
+----B---
+--------
+--------
+-----R--
+------B-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (3,4), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----R---
+--------
+--------
+---B----
+--------
+-----R--
+------B-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----R---
+--------
+--------
+---B----
+------R-
+--------
+------B-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,3), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----R---
+--------
+--------
+--------
+--B---R-
+--------
+------B-
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (5,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----R---
+--------
+--------
+--------
+--B-----
+-----R--
+------B-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,2), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----R---
+--------
+--------
+-B------
+--------
+-----R--
+------B-
+
+the number of legal moves this turn is 7
+WE ARE MOVING PAWN AT (6,5), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----R---
+--------
+--------
+-B------
+------R-
+--------
+------B-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+----R---
+--------
+--------
+--------
+B-----R-
+--------
+------B-
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (1,4), TO (0,5) 
+ 
+- - - - - - - - - - - - - - -  
+-----R--
+--------
+--------
+--------
+--------
+B-----R-
+--------
+------B-
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,0), TO (4,1) 
+ 
+- - - - - - - - - - - - - - -  
+-----R--
+--------
+--------
+--------
+-B------
+------R-
+--------
+------B-
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,6), TO (6,7) 
+ 
+- - - - - - - - - - - - - - -  
+-----R--
+--------
+--------
+--------
+-B------
+--------
+-------R
+------B-
+
+the number of legal moves this turn is 5
+WE ARE MOVING PAWN AT (4,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+-----R--
+--------
+--------
+--------
+--------
+B-------
+-------R
+------B-
+
+the number of legal moves this turn is 3
+WE ARE MOVING PAWN AT (0,5), TO (1,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+------R-
+--------
+--------
+--------
+B-------
+-------R
+------B-
+
+the number of legal moves this turn is 3
+WE ARE MOVING PAWN AT (7,6), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+------R-
+--------
+--------
+--------
+B-------
+-----B-R
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,7), TO (5,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+------R-
+--------
+--------
+--------
+B-----R-
+-----B--
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,5), TO (4,7) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+------R-
+--------
+--------
+-------B
+B-------
+--------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (1,6), TO (2,7) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+-------R
+--------
+-------B
+B-------
+--------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+-------R
+--------
+-------B
+--------
+-B------
+--------
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (2,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+------R-
+-------B
+--------
+-B------
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+------R-
+-------B
+B-------
+--------
+--------
+
+the number of legal moves this turn is 3
+WE ARE MOVING PAWN AT (3,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-----R-B
+B-------
+--------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-----R-B
+--------
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,5), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+------R-
+-------B
+--------
+-B------
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (6,1), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+------R-
+-------B
+--B-----
+--------
+--------
+
+the number of legal moves this turn is 3
+WE ARE MOVING PAWN AT (3,6), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-----R-B
+--B-----
+--------
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (5,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-----R-B
+--------
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,5), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-------B
+----R---
+-B------
+--------
+
+the number of legal moves this turn is 6
+WE ARE MOVING PAWN AT (4,7), TO (3,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+------B-
+--------
+----R---
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,4), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+------B-
+---R----
+--------
+-B------
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (3,6), TO (2,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+-----B--
+--------
+---R----
+--------
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,3), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+-----B--
+--------
+--------
+--R-----
+-B------
+--------
+
+the number of legal moves this turn is 8
+WE ARE MOVING PAWN AT (2,5), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+----B---
+--------
+--R-----
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,2), TO (7,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+----B---
+--------
+--------
+--------
+R-------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (3,4), TO (4,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+---B----
+--------
+--------
+R-------
+
+the number of legal moves this turn is 1
+WE ARE MOVING PAWN AT (7,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+---B----
+--------
+-R------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+----B---
+-R------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,1), TO (7,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+----B---
+--------
+--R-----
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,4), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+---B----
+--R-----
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (7,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-R-B----
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,3), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--B-----
+-R------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,1), TO (7,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--B-----
+--------
+--R-----
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-B------
+--R-----
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (7,2), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-B-R----
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,1), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--B-----
+---R----
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,3), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--B-----
+--------
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-B------
+----R---
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (7,4), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-B-R----
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,1), TO (5,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+B-------
+---R----
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+B---R---
+--------
+--------
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (5,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+----R---
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,4), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-----R--
+--------
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,1), TO (7,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-----R--
+--------
+--------
+B-------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,5), TO (3,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+----R---
+--------
+--------
+--------
+B-------
+
+the number of legal moves this turn is 1
+WE ARE MOVING PAWN AT (7,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+----R---
+--------
+--------
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (3,4), TO (4,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-----R--
+--------
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,1), TO (7,0) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+-----R--
+--------
+--------
+B-------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (4,5), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+----R---
+--------
+B-------
+
+the number of legal moves this turn is 1
+WE ARE MOVING PAWN AT (7,0), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+----R---
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,4), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-B-R----
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,1), TO (7,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+---R----
+--B-----
+
+the number of legal moves this turn is 3
+WE ARE MOVING PAWN AT (6,3), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+----R---
+--------
+--B-----
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (7,2), TO (6,1) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+----R---
+-B------
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-B---R--
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,1), TO (5,2) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--B-----
+-----R--
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,5), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--B-----
+--------
+----R---
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (5,2), TO (6,3) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+---B----
+----R---
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+---B-R--
+--------
+
+the number of legal moves this turn is 4
+WE ARE MOVING PAWN AT (6,3), TO (7,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-----R--
+----B---
+
+the number of legal moves this turn is 3
+WE ARE MOVING PAWN AT (6,5), TO (7,6) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+--------
+----B-R-
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (7,4), TO (6,5) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+--------
+-----B--
+------R-
+
+the number of legal moves this turn is 2
+WE ARE MOVING PAWN AT (7,6), TO (5,4) 
+ 
+- - - - - - - - - - - - - - -  
+--------
+--------
+--------
+--------
+--------
+----R---
+--------
+--------
+

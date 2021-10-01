@@ -96,11 +96,19 @@ bool Production::prod(int argc, char* argv[])
 	CheckerMove* gameCheck = new CheckerMove();
 
 	int turnsPlayed = 0;
-	bool gameFinished = theBoard->checkIsWin(gameCheck, turnBool);
+	bool gameFinished = theBoard->checkIsWin();
 
 		while (turnsPlayed < maxMoves && !gameFinished){
 			readFile("gameState.txt", theBoard);
 			gameCheck->findAllLegalMoves(theBoard, turnBool);
+			if(gameCheck->moves.size() == 0){
+				if(turnBool){//true is black
+					theBoard->winner = "Black";
+				}
+				else
+					theBoard->winner = "Red";
+				gameFinished = true;
+			}
 			int movesSize = (int)gameCheck->moves.size();
 			printf("the number of legal moves this turn is %d\n",movesSize);
 			FILE* fp = fopen("boards.txt","a");
@@ -139,13 +147,17 @@ bool Production::prod(int argc, char* argv[])
 
 			}
 			theBoard->displayBoard();
-			gameFinished = theBoard->checkIsWin(gameCheck, turnBool);
+			gameFinished = theBoard->checkIsWin();
 			theBoard->printToFile("gameState.txt");
 			theBoard->printToFile("boards.txt");
 
 			turnBool = !turnBool;
 			turnsPlayed++;
 		}
+
+		printf("%s Won!", theBoard->winner);
+		fflush(stdout);
+
 		return answer;
 	}
 

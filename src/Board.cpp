@@ -196,10 +196,10 @@ void Board::initBoard(Pawn* pawnArray[]){
 }
 
 
-bool Board::checkIsWin(CheckerMove* moveToCheck, bool side){ // needs to check if either team has no legal moves
+bool Board::checkIsWin(){ // needs to check if either team has no legal moves
 
 	bool winState = false;
-	///*
+
 		int redTally = 0;
 		int blackTally = 0;
 		int max = sizeof(Pieces)/sizeof(Pieces[0]);
@@ -215,28 +215,26 @@ bool Board::checkIsWin(CheckerMove* moveToCheck, bool side){ // needs to check i
 		}
 		if (redTally == 0){
 			//all reds have been taken, black wins
-			puts("Black Won!");
-			fflush(stdout);
+			winner = "Black";
 			winState = true;
 		}
 		if (blackTally == 0){
-			puts("Red Won!");
-			fflush(stdout);
+			winner = "Red";
 			winState = true;
-		}//*/
-
-		if (moveToCheck->moves.size == 0){
-			if(side){
-				puts("Black Ran Out Of Moves\nRed Wins!");
-				fflush(stdout);
-			}
-			else{
-				puts("Red Ran Out Of Moves\nBlack Wins!");
-				fflush(stdout);
-			}
-
-
 		}
+
+//		if (moveToCheck->moves.size == 0){
+//			if(side){
+//				puts("Black Ran Out Of Moves\nRed Wins!");
+//				fflush(stdout);
+//			}
+//			else{
+//				puts("Red Ran Out Of Moves\nBlack Wins!");
+//				fflush(stdout);
+//			}
+//
+//
+//		}
 
 	return winState;
 
