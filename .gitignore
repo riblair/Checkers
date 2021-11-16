@@ -1,4 +1,5 @@
 
 .settings/language.settings.xml
 *.o
+Debug/src/Production.o
 Debug/Checkers.exe
